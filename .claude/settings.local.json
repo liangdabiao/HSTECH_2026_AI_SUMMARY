@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cd \"E:\\\\恒生科技\" && python build_standalone_html.py)",
+      "Bash(cd \"E:\\\\恒生科技\" && python -c \"import json; data = json.load\\(open\\('reports_data.json', 'r', encoding='utf-8'\\)\\); print\\('报告数量:', len\\(data['reports']\\)\\); print\\('文件数量:', len\\(data['files']\\)\\); test = 'STOCK_01801_HK_Innovent/00_Executive_Summary.md'; print\\('测试文件存在:', test in data['files']\\); print\\('测试文件长度:', len\\(data['files'][test]\\) if test in data['files'] else 0\\)\")",
+      "Bash(cd \"E:\\\\恒生科技\" && node -c reader_standalone.html 2>&1 || echo \"Node.js不可用或检查出错\")",
+      "Bash(cd \"E:\\\\恒生科技\" && python check_html.py)",
+      "Bash(cd \"E:\\\\恒生科技\" && python3 build_directory_map.py)",
+      "Bash(cd \"E:\\\\恒生科技\" && start reader.html)",
+      "Bash(cd \"E:\\\\恒生科技\" && rm -f reader.html)"
+    ]
+  }
+}

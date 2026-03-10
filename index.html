@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>股票报告阅读器</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "PingFang SC", "Microsoft YaHei", sans-serif;
+            background: #0f0f14;
+            color: #e0e0e0;
+            height: 100vh;
+            display: flex;
+            overflow: hidden;
+        }
+
+        /* 左侧边栏 */
+        .sidebar {
+            width: 320px;
+            min-width: 320px;
+            background: #1a1a1f;
+            border-right: 1px solid #2a2a2f;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+
+        .sidebar-header {
+            padding: 1.2rem;
+            background: linear-gradient(135deg, #4361ee, #3f37c9);
+            border-bottom: 1px solid #2a2a2f;
+        }
+
+        .sidebar-header h1 {
+            font-size: 1.1rem;
+            color: #fff;
+            font-weight: 600;
+        }
+
+        .sidebar-header p {
+            font-size: 0.75rem;
+            color: rgba(255,255,255,0.8);
+            margin-top: 0.3rem;
+        }
+
+        /* 分类标签 */
+        .category-tabs {
+            display: flex;
+            border-bottom: 1px solid #2a2a2f;
+            background: #1a1a1f;
+        }
+
+        .category-tab {
+            flex: 1;
+            padding: 0.8rem 0.5rem;
+            text-align: center;
+            cursor: pointer;
+            font-size: 0.8rem;
+            color: #888;
+            background: transparent;
+            border: none;
+            transition: all 0.2s;
+            position: relative;
+        }
+
+        .category-tab:hover {
+            color: #e0e0e0;
+            background: #1f1f25;
+        }
+
+        .category-tab.active {
+            color: #4361ee;
+            font-weight: 600;
+        }
+
+        .category-tab.active::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 2px;
+            background: #4361ee;
+        }
+
+        .search-box {
+            padding: 1rem;
+            border-bottom: 1px solid #2a2a2f;
+        }
+
+        .search-box input {
+            width: 100%;
+            padding: 0.7rem 1rem;
+            font-size: 0.9rem;
+            border: 1px solid #2a2a2f;
+            border-radius: 8px;
+            background: #0f0f14;
+            color: #e0e0e0;
+            outline: none;
+            transition: border-color 0.2s;
+        }
+
+        .search-box input:focus {
+            border-color: #4361ee;
+        }
+
+        .nav-tree {
+            flex: 1;
+            overflow-y: auto;
+            padding: 0.5rem;
+        }
+
+        .nav-tree::-webkit-scrollbar {
+            width: 6px;
+        }
+
+        .nav-tree::-webkit-scrollbar-thumb {
+            background: #3a3a3f;
+            border-radius: 3px;
+        }
+
+        .report-item {
+            margin-bottom: 0.3rem;
+        }
+
+        .report-name {
+            padding: 0.7rem 0.8rem;
+            font-weight: 600;
+            cursor: pointer;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            transition: background 0.2s;
+        }
+
+        .report-name:hover {
+            background: #2a2a2f;
+        }
+
+        .report-name .arrow {
+            font-size: 0.7rem;
+            transition: transform 0.2s;
+        }
+
+        .report-name.expanded .arrow {
+            transform: rotate(90deg);
+        }
+
+        .file-list {
+            margin-left: 1rem;
+            overflow: hidden;
+            max-height: 0;
+            transition: max-height 0.3s ease;
+        }
+
+        .file-list.expanded {
+            max-height: 2000px;
+        }
+
+        .file-item {
+            padding: 0.5rem 0.8rem;
+            cursor: pointer;
+            border-radius: 6px;
+            font-size: 0.85rem;
+            color: #888;
+            transition: all 0.2s;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .file-item:hover {
+            background: #2a2a2f;
+            color: #e0e0e0;
+        }
+
+        .file-item.active {
+            background: #4361ee;
+            color: #fff;
+        }
+
+        /* 右侧内容区 */
+        .main-content {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+
+        .content-header {
+            padding: 1rem 2rem;
+            background: #1a1a1f;
+            border-bottom: 1px solid #2a2a2f;
+        }
+
+        .breadcrumb {
+            font-size: 0.9rem;
+            color: #888;
+        }
+
+        .breadcrumb .current {
+            color: #e0e0e0;
+            font-weight: 500;
+        }
+
+        .breadcrumb-separator {
+            margin: 0 0.5rem;
+            color: #4a4a4f;
+        }
+
+        .content-body {
+            flex: 1;
+            overflow-y: auto;
+            padding: 2rem;
+        }
+
+        .content-body::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        .content-body::-webkit-scrollbar-thumb {
+            background: #3a3a3f;
+            border-radius: 4px;
+        }
+
+        /* Markdown 内容样式 */
+        .markdown-content {
+            max-width: 900px;
+            line-height: 1.8;
+        }
+
+        .markdown-content h1 {
+            font-size: 2rem;
+            margin: 1.5rem 0 1rem;
+            color: #fff;
+        }
+
+        .markdown-content h2 {
+            font-size: 1.5rem;
+            margin: 1.3rem 0 0.8rem;
+            color: #f0f0f0;
+        }
+
+        .markdown-content h3 {
+            font-size: 1.2rem;
+            margin: 1rem 0 0.6rem;
+            color: #e8e8e8;
+        }
+
+        .markdown-content p {
+            margin: 0.7rem 0;
+        }
+
+        .markdown-content code {
+            background: #2a2a2f;
+            padding: 0.2rem 0.5rem;
+            border-radius: 4px;
+            font-family: 'Consolas', monospace;
+            color: #e8b878;
+            font-size: 0.9em;
+        }
+
+        .markdown-content pre {
+            background: #1a1a1f;
+            padding: 1rem;
+            border-radius: 8px;
+            overflow-x: auto;
+            margin: 1rem 0;
+        }
+
+        .markdown-content pre code {
+            background: none;
+            padding: 0;
+        }
+
+        .markdown-content table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1.5rem 0;
+            font-size: 0.9rem;
+        }
+
+        .markdown-content th,
+        .markdown-content td {
+            border: 1px solid #2a2a2f;
+            padding: 0.8rem;
+            text-align: left;
+        }
+
+        .markdown-content th {
+            background: #1a1a1f;
+            font-weight: 600;
+        }
+
+        .markdown-content a {
+            color: #4361ee;
+            text-decoration: none;
+        }
+
+        .markdown-content a:hover {
+            text-decoration: underline;
+        }
+
+        .markdown-content strong {
+            color: #fff;
+        }
+
+        .markdown-content ul,
+        .markdown-content ol {
+            margin: 0.7rem 0;
+            padding-left: 2rem;
+        }
+
+        .markdown-content li {
+            margin: 0.3rem 0;
+        }
+
+        .markdown-content blockquote {
+            border-left: 4px solid #4361ee;
+            padding-left: 1rem;
+            margin: 1rem 0;
+            color: #888;
+        }
+
+        /* 加载状态 */
+        .loading {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 4rem;
+            color: #888;
+        }
+
+        .spinner {
+            width: 40px;
+            height: 40px;
+            border: 3px solid #2a2a2f;
+            border-top-color: #4361ee;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+
+        .loading-text {
+            margin-top: 1rem;
+            font-size: 0.9rem;
+        }
+
+        .error-message {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 4rem;
+            color: #e74c4c;
+        }
+
+        .error-icon {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+
+        .placeholder {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 4rem;
+            color: #666;
+        }
+
+        .placeholder-icon {
+            font-size: 4rem;
+            margin-bottom: 1rem;
+            opacity: 0.3;
+        }
+
+        .category-count {
+            font-size: 0.7rem;
+            color: #666;
+            margin-left: 0.3rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="sidebar">
+        <div class="sidebar-header">
+            <h1>📊 股票报告</h1>
+            <p id="reportCount">加载中...</p>
+        </div>
+        <div class="category-tabs" id="categoryTabs">
+            <button class="category-tab active" data-category="all">全部</button>
+            <button class="category-tab" data-category="hk">港股</button>
+            <button class="category-tab" data-category="us">美股</button>
+            <button class="category-tab" data-category="cn">A股</button>
+        </div>
+        <div class="search-box">
+            <input type="text" id="searchInput" placeholder="搜索报告或文件...">
+        </div>
+        <div class="nav-tree" id="navTree"></div>
+    </div>
+
+    <div class="main-content">
+        <div class="content-header">
+            <div class="breadcrumb" id="breadcrumb">
+                <span>请选择文件</span>
+            </div>
+        </div>
+        <div class="content-body" id="contentBody">
+            <div class="placeholder">
+                <div class="placeholder-icon">📄</div>
+                <p>请从左侧选择一个报告文件</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="directory_map.js"></script>
+    <script>
+        let reportsData = [];
+        let currentCategory = 'all';
+        let currentFilePath = null;
+
+        // 初始化
+        function init() {
+            if (typeof directoryData !== 'undefined') {
+                reportsData = directoryData.reports;
+                updateCategoryCounts();
+                renderNavTree();
+
+                // 分类切换事件
+                document.querySelectorAll('.category-tab').forEach(tab => {
+                    tab.addEventListener('click', () => {
+                        document.querySelectorAll('.category-tab').forEach(t => t.classList.remove('active'));
+                        tab.classList.add('active');
+                        currentCategory = tab.dataset.category;
+                        renderNavTree();
+                    });
+                });
+
+                // 搜索功能
+                document.getElementById('searchInput').addEventListener('input', handleSearch);
+            } else {
+                document.getElementById('reportCount').textContent = '加载失败';
+            }
+        }
+
+        // 更新分类计数
+        function updateCategoryCounts() {
+            const counts = {
+                all: reportsData.length,
+                hk: reportsData.filter(r => r.market === 'hk').length,
+                us: reportsData.filter(r => r.market === 'us').length,
+                cn: reportsData.filter(r => r.market === 'cn').length
+            };
+
+            document.querySelectorAll('.category-tab').forEach(tab => {
+                const cat = tab.dataset.category;
+                const count = counts[cat] || 0;
+                tab.textContent = tab.textContent.replace(/\s*\d+$/, '') + ' ' + count;
+            });
+        }
+
+        // 渲染导航树
+        function renderNavTree(filter = '') {
+            const container = document.getElementById('navTree');
+            container.innerHTML = '';
+
+            // 按分类过滤
+            let filteredReports = reportsData;
+            if (currentCategory !== 'all') {
+                filteredReports = reportsData.filter(r => r.market === currentCategory);
+            }
+
+            // 按搜索过滤
+            if (filter) {
+                filteredReports = filteredReports.filter(r =>
+                    r.name.toLowerCase().includes(filter.toLowerCase()) ||
+                    r.files.some(f => f.displayName.toLowerCase().includes(filter.toLowerCase()))
+                );
+            }
+
+            filteredReports.forEach(report => {
+                const reportDiv = document.createElement('div');
+                reportDiv.className = 'report-item';
+
+                const reportName = document.createElement('div');
+                reportName.className = 'report-name';
+                reportName.innerHTML = `
+                    <span>${report.name}</span>
+                    <span class="arrow">▶</span>
+                `;
+
+                const fileList = document.createElement('div');
+                fileList.className = 'file-list';
+
+                // 过滤文件
+                const filesToShow = filter
+                    ? report.files.filter(f => f.displayName.toLowerCase().includes(filter.toLowerCase()))
+                    : report.files;
+
+                filesToShow.forEach(file => {
+                    const fileDiv = document.createElement('div');
+                    fileDiv.className = 'file-item';
+                    fileDiv.dataset.path = file.path;
+                    fileDiv.innerHTML = `<span style="opacity:0.5">📄</span>${file.displayName}`;
+                    fileDiv.onclick = () => loadFile(file, report);
+                    fileList.appendChild(fileDiv);
+                });
+
+                // 展开/折叠
+                reportName.onclick = () => {
+                    reportName.classList.toggle('expanded');
+                    fileList.classList.toggle('expanded');
+                };
+
+                reportDiv.appendChild(reportName);
+                reportDiv.appendChild(fileList);
+                container.appendChild(reportDiv);
+            });
+
+            // 更新计数显示
+            document.getElementById('reportCount').textContent = `${filteredReports.length} 个报告`;
+        }
+
+        // 搜索处理
+        function handleSearch(e) {
+            renderNavTree(e.target.value);
+        }
+
+        // 加载文件（异步）
+        function loadFile(file, report) {
+            document.querySelectorAll('.file-item').forEach(item => item.classList.remove('active'));
+            const active = document.querySelector(`[data-path="${file.path}"]`);
+            if (active) active.classList.add('active');
+
+            document.getElementById('breadcrumb').innerHTML = `
+                <span>${report.name}</span>
+                <span class="breadcrumb-separator">/</span>
+                <span class="current">${file.displayName}</span>
+            `;
+
+            const contentBody = document.getElementById('contentBody');
+            contentBody.innerHTML = `
+                <div class="loading">
+                    <div class="spinner"></div>
+                    <div class="loading-text">加载中...</div>
+                </div>
+            `;
+
+            currentFilePath = file.path;
+            loadMarkdownFile(file.path);
+        }
+
+        // 使用 XMLHttpRequest 加载 markdown 文件
+        function loadMarkdownFile(filePath) {
+            const xhr = new XMLHttpRequest();
+            xhr.open('GET', filePath, true);
+            xhr.responseType = 'text';
+
+            xhr.onload = function() {
+                const contentBody = document.getElementById('contentBody');
+                if (xhr.status === 200) {
+                    const markdown = xhr.responseText;
+                    const folderPath = filePath.substring(0, filePath.lastIndexOf('/'));
+                    const html = parseMarkdown(markdown, folderPath);
+                    contentBody.innerHTML = `<div class="markdown-content">${html}</div>`;
+                } else if (xhr.status === 404) {
+                    contentBody.innerHTML = `
+                        <div class="error-message">
+                            <div class="error-icon">❌</div>
+                            <div>文件未找到</div>
+                            <div style="font-size:0.85rem;color:#888;margin-top:0.5rem">${filePath}</div>
+                        </div>
+                    `;
+                } else {
+                    contentBody.innerHTML = `
+                        <div class="error-message">
+                            <div class="error-icon">⚠️</div>
+                            <div>加载失败</div>
+                            <div style="font-size:0.85rem;color:#888;margin-top:0.5rem">状态码: ${xhr.status}</div>
+                        </div>
+                    `;
+                }
+            };
+
+            xhr.onerror = function() {
+                const contentBody = document.getElementById('contentBody');
+                contentBody.innerHTML = `
+                    <div class="error-message">
+                        <div class="error-icon">⚠️</div>
+                        <div>网络错误</div>
+                        <div style="font-size:0.85rem;color:#888;margin-top:0.5rem">
+                            无法加载文件: ${filePath}<br>
+                            请确保文件和 HTML 在同一服务器上
+                        </div>
+                    </div>
+                `;
+            };
+
+            xhr.send();
+        }
+
+        // Markdown 解析
+        function parseMarkdown(md, folderPath) {
+            let html = md;
+
+            const placeholders = [];
+            html = html.replace(/<[^>]+>/g, (match) => {
+                placeholders.push(match);
+                return `[[HTML${placeholders.length - 1}]]`;
+            });
+
+            html = html.replace(/&/g, '&amp;');
+            html = html.replace(/</g, '&lt;');
+            html = html.replace(/>/g, '&gt;');
+            html = html.replace(/\[\[HTML(\d+)\]\]/g, (_, idx) => placeholders[idx]);
+
+            html = html.replace(/```(\w*)\n([\s\S]*?)```/g, '<pre><code>$2</code></pre>');
+            html = html.replace(/`([^`]+)`/g, '<code>$1</code>');
+            html = parseMarkdownTable(html);
+
+            html = html.replace(/^#### (.+)$/gm, '<h4>$1</h4>');
+            html = html.replace(/^### (.+)$/gm, '<h3>$1</h3>');
+            html = html.replace(/^## (.+)$/gm, '<h2>$1</h2>');
+            html = html.replace(/^# (.+)$/gm, '<h1>$1</h1>');
+            html = html.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
+            html = html.replace(/\*(.+?)\*/g, '<em>$1</em>');
+
+            html = html.replace(/\[([^\]]+)\]\(([^)]+)\)/g, (match, text, href) => {
+                if (href.startsWith('./') || href.startsWith('../') || !href.startsWith('http')) {
+                    href = folderPath + '/' + href;
+                }
+                return `<a href="${href}" target="_blank">${text}</a>`;
+            });
+
+            html = html.replace(/^- (.+)$/gm, '<li>$1</li>');
+            html = html.replace(/(<li>.*<\/li>)\n(?=<li>)/g, '$1');
+            html = html.replace(/(<li>.*<\/li>)/s, '<ul>$1</ul>');
+            html = html.replace(/<\/ul>\n<ul>/g, '');
+            html = html.replace(/^&gt; (.+)$/gm, '<blockquote>$1</blockquote>');
+
+            html = html.replace(/\n\n/g, '</p><p>');
+            html = '<p>' + html + '</p>';
+            html = html.replace(/<p>\s*<\/p>/g, '');
+            html = html.replace(/<p>(<table>)/g, '$1');
+            html = html.replace(/(<\/table>)<\/p>/g, '$1');
+            html = html.replace(/<p>(<h[1-4]>)/g, '$1');
+            html = html.replace(/(<\/h[1-4]>)<\/p>/g, '$1');
+            html = html.replace(/<p>(<ul>)/g, '$1');
+            html = html.replace(/(<\/ul>)<\/p>/g, '$1');
+            html = html.replace(/<p>(<pre>)/g, '$1');
+            html = html.replace(/(<\/pre>)<\/p>/g, '$1');
+            html = html.replace(/<p>(<blockquote>)/g, '$1');
+            html = html.replace(/(<\/blockquote>)<\/p>/g, '$1');
+
+            return html;
+        }
+
+        function parseMarkdownTable(html) {
+            const lines = html.split('\n');
+            let result = [];
+            let i = 0;
+
+            while (i < lines.length) {
+                const line = lines[i].trim();
+
+                if (line.match(/^\|.+\|$/)) {
+                    let tableRows = [];
+
+                    while (i < lines.length) {
+                        const currentLine = lines[i].trim();
+                        if (!currentLine.match(/^\|.+\|$/)) break;
+
+                        const isSeparator = currentLine.replace(/\|/g, '').match(/^[\s\-:]*$/);
+
+                        if (!isSeparator) {
+                            tableRows.push(currentLine);
+                        }
+                        i++;
+                    }
+
+                    if (tableRows.length > 0) {
+                        let tableHtml = '<table>';
+
+                        tableRows.forEach((row, idx) => {
+                            const cells = row.split('|').map(c => c.trim()).filter(c => c !== '');
+
+                            if (idx === 0) {
+                                tableHtml += '<thead><tr>' + cells.map(c => `<th>${c}</th>`).join('') + '</tr></thead><tbody>';
+                            } else {
+                                tableHtml += '<tr>' + cells.map(c => `<td>${c}</td>`).join('') + '</tr>';
+                            }
+                        });
+
+                        tableHtml += '</tbody></table>';
+                        result.push(tableHtml);
+                        continue;
+                    }
+                }
+
+                result.push(lines[i]);
+                i++;
+            }
+
+            return result.join('\n');
+        }
+
+        init();
+    </script>
+</body>
+</html>
