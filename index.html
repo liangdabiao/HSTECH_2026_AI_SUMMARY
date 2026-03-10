@@ -505,8 +505,10 @@
                 fileList.className = 'file-list';
 
                 // 过滤文件
+                // 如果报告名称匹配搜索词，显示所有文件；否则按文件名过滤
+                const reportNameMatches = filter && report.name.toLowerCase().includes(filter.toLowerCase());
                 const filesToShow = filter
-                    ? report.files.filter(f => f.displayName.toLowerCase().includes(filter.toLowerCase()))
+                    ? (reportNameMatches ? report.files : report.files.filter(f => f.displayName.toLowerCase().includes(filter.toLowerCase())))
                     : report.files;
 
                 filesToShow.forEach(file => {
@@ -517,6 +519,17 @@
                     fileDiv.onclick = () => loadFile(file, report);
                     fileList.appendChild(fileDiv);
                 });
+
+                // 搜索时自动展开文件列表
+                const shouldAutoExpand = filter && (
+                    report.name.toLowerCase().includes(filter.toLowerCase()) ||
+                    filesToShow.length > 0
+                );
+                if (shouldAutoExpand) {
+                    reportName.classList.add('expanded');
+                    fileList.classList.add('expanded');
+                    console.log('Auto-expanding:', report.name, 'files:', filesToShow.length);
+                }
 
                 // 展开/折叠
                 reportName.onclick = () => {
