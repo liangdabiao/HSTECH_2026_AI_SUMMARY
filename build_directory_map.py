@@ -7,6 +7,47 @@ import json
 from pathlib import Path
 
 DIRECTORY = Path(r"E:\恒生科技")
+REPORTS_DATA_FILE = DIRECTORY / "reports_data.json"
+STOCK_NAME_MAPPING_FILE = DIRECTORY / "stock_name_mapping.json"
+
+# 全局变量：存储股票代码到中文名称的映射
+STOCK_NAME_MAP = {}
+
+def load_stock_names():
+    """从 reports_data.json 和 stock_name_mapping.json 加载股票名称映射"""
+    global STOCK_NAME_MAP
+    count = 0
+
+    # 首先从 reports_data.json 加载（基础映射）
+    try:
+        if REPORTS_DATA_FILE.exists():
+            with open(REPORTS_DATA_FILE, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+                for report in data.get('reports', []):
+                    folder_name = report.get('folder', '')
+                    name = report.get('name', '')
+                    if folder_name and name:
+                        STOCK_NAME_MAP[folder_name] = name
+                        count += 1
+            print(f"已从 reports_data.json 加载 {count} 个股票名称映射")
+    except Exception as e:
+        print(f"加载 reports_data.json 失败: {e}")
+
+    # 然后从 stock_name_mapping.json 加载（覆盖和补充映射）
+    count2 = 0
+    try:
+        if STOCK_NAME_MAPPING_FILE.exists():
+            with open(STOCK_NAME_MAPPING_FILE, 'r', encoding='utf-8') as f:
+                mapping = json.load(f)
+                for folder_name, name in mapping.items():
+                    # 覆盖已存在的映射或添加新映射
+                    STOCK_NAME_MAP[folder_name] = name
+                    count2 += 1
+            print(f"已从 stock_name_mapping.json 加载/覆盖 {count2} 个股票名称映射")
+    except Exception as e:
+        print(f"加载 stock_name_mapping.json 失败: {e}")
+
+    print(f"总计 {len(STOCK_NAME_MAP)} 个股票名称映射")
 
 def build_directory_map():
     """生成目录映射"""
@@ -109,10 +150,18 @@ def get_display_name(filename):
     return display_names.get(filename, filename.replace('.md', ''))
 
 def get_report_name(folder_name):
-    """获取报告的友好名称"""
+    """获取报告的友好名称 - 中文简称 + 英文原名"""
+    # 如果有映射表，使用映射的中文名称
+    if folder_name in STOCK_NAME_MAP:
+        return STOCK_NAME_MAP[folder_name]
+
+    # 否则返回文件夹名（兜底）
     return folder_name
 
 def main():
+    print("正在加载股票名称映射...")
+    load_stock_names()
+
     print("正在扫描文件...")
 
     # 生成报告列表
