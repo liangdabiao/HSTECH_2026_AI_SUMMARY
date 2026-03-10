@@ -7,7 +7,8 @@
       "Bash(cd \"E:\\\\恒生科技\" && python check_html.py)",
       "Bash(cd \"E:\\\\恒生科技\" && python3 build_directory_map.py)",
       "Bash(cd \"E:\\\\恒生科技\" && start reader.html)",
-      "Bash(cd \"E:\\\\恒生科技\" && rm -f reader.html)"
+      "Bash(cd \"E:\\\\恒生科技\" && rm -f reader.html)",
+      "Bash(find \"E:\\\\恒生科技\" -type f -name \"*.md\" -o -name \"*.txt\" -o -name \"*.html\" 2>/dev/null | head -50)"
     ]
   }
 }
