@@ -13,7 +13,11 @@
       "Bash(powershell -Command \"Remove-Item -Path 'E:\\\\恒生科技\\\\STOCK_301229_UNKNOWN' -Force -Recurse -ErrorAction SilentlyContinue; if \\(Test-Path 'E:\\\\恒生科技\\\\STOCK_301229_UNKNOWN'\\) { Write-Host '仍存在' } else { Write-Host '已删除' }\")",
       "Bash(ls -d \"E:\\\\恒生科技\\\\STOCK_*_UNKNOWN\" 2>/dev/null | wc -l)",
       "Bash(cd \"E:\\\\恒生科技\" && python build_directory_map.py)",
-      "Bash(ls -d \"E:\\\\恒生科技\\\\STOCK_QFIN_\"* 2>/dev/null)"
+      "Bash(ls -d \"E:\\\\恒生科技\\\\STOCK_QFIN_\"* 2>/dev/null)",
+      "Bash(for dir:*)",
+      "Bash(do echo:*)",
+      "Read(//e/恒生科技/**)",
+      "Bash(done)"
     ]
   }
 }
