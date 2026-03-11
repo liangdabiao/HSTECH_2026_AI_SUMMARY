@@ -32,7 +32,8 @@
       "Bash(ls -d STOCK_*_COMPANY 2>/dev/null | wc -l)",
       "Bash(ls -d STOCK_* | wc -l)",
       "Bash(python3 analyze_poor_reports_v2.py)",
-      "Bash(python3 generate_poor_report_md.py)"
+      "Bash(python3 generate_poor_report_md.py)",
+      "Bash(python3 check_poor_reports.py)"
     ]
   }
 }

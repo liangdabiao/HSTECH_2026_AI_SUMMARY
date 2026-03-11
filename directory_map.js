@@ -2448,7 +2448,43 @@ const directoryData = {
           "name": "README.md",
           "displayName": "概述",
           "path": "STOCK_BEDU_BrightScholar/README.md",
-          "size": 561
+          "size": 3035
+        },
+        {
+          "name": "00_Executive_Summary.md",
+          "displayName": "00_执行摘要",
+          "path": "STOCK_BEDU_BrightScholar/00_Executive_Summary.md",
+          "size": 4567
+        },
+        {
+          "name": "01_Company_History.md",
+          "displayName": "01_Company_History",
+          "path": "STOCK_BEDU_BrightScholar/01_Company_History.md",
+          "size": 6290
+        },
+        {
+          "name": "02_Delisting_Analysis.md",
+          "displayName": "02_Delisting_Analysis",
+          "path": "STOCK_BEDU_BrightScholar/02_Delisting_Analysis.md",
+          "size": 7716
+        },
+        {
+          "name": "03_Financial_History.md",
+          "displayName": "03_Financial_History",
+          "path": "STOCK_BEDU_BrightScholar/03_Financial_History.md",
+          "size": 7868
+        },
+        {
+          "name": "04_Business_Analysis.md",
+          "displayName": "04_Business_Analysis",
+          "path": "STOCK_BEDU_BrightScholar/04_Business_Analysis.md",
+          "size": 8082
+        },
+        {
+          "name": "research_log.md",
+          "displayName": "research_log",
+          "path": "STOCK_BEDU_BrightScholar/sources/research_log.md",
+          "size": 5895
         }
       ]
     },
@@ -2476,7 +2512,37 @@ const directoryData = {
           "name": "README.md",
           "displayName": "概述",
           "path": "STOCK_DL_ChinaDistance/README.md",
-          "size": 547
+          "size": 2473
+        },
+        {
+          "name": "00_Executive_Summary.md",
+          "displayName": "00_执行摘要",
+          "path": "STOCK_DL_ChinaDistance/00_Executive_Summary.md",
+          "size": 5659
+        },
+        {
+          "name": "01_Company_History.md",
+          "displayName": "01_Company_History",
+          "path": "STOCK_DL_ChinaDistance/01_Company_History.md",
+          "size": 5726
+        },
+        {
+          "name": "02_Delisting_Analysis.md",
+          "displayName": "02_Delisting_Analysis",
+          "path": "STOCK_DL_ChinaDistance/02_Delisting_Analysis.md",
+          "size": 5996
+        },
+        {
+          "name": "03_Business_Analysis.md",
+          "displayName": "03_Business_Analysis",
+          "path": "STOCK_DL_ChinaDistance/03_Business_Analysis.md",
+          "size": 8180
+        },
+        {
+          "name": "research_log.md",
+          "displayName": "research_log",
+          "path": "STOCK_DL_ChinaDistance/sources/research_log.md",
+          "size": 5089
         }
       ]
     },
@@ -2490,7 +2556,7 @@ const directoryData = {
           "name": "README.md",
           "displayName": "概述",
           "path": "STOCK_NEW_Puxin/README.md",
-          "size": 730
+          "size": 6561
         }
       ]
     },
@@ -2504,7 +2570,19 @@ const directoryData = {
           "name": "README.md",
           "displayName": "概述",
           "path": "STOCK_ONE_OneSmart/README.md",
-          "size": 521
+          "size": 4681
+        },
+        {
+          "name": "00_Executive_Summary.md",
+          "displayName": "00_执行摘要",
+          "path": "STOCK_ONE_OneSmart/00_Executive_Summary.md",
+          "size": 5745
+        },
+        {
+          "name": "research_log.md",
+          "displayName": "research_log",
+          "path": "STOCK_ONE_OneSmart/sources/research_log.md",
+          "size": 3272
         }
       ]
     },
@@ -2518,7 +2596,19 @@ const directoryData = {
           "name": "README.md",
           "displayName": "概述",
           "path": "STOCK_REDU_Rise/README.md",
-          "size": 552
+          "size": 2712
+        },
+        {
+          "name": "00_Executive_Summary.md",
+          "displayName": "00_执行摘要",
+          "path": "STOCK_REDU_Rise/00_Executive_Summary.md",
+          "size": 4576
+        },
+        {
+          "name": "research_log.md",
+          "displayName": "research_log",
+          "path": "STOCK_REDU_Rise/sources/research_log.md",
+          "size": 869
         }
       ]
     },
@@ -2532,7 +2622,7 @@ const directoryData = {
           "name": "README.md",
           "displayName": "概述",
           "path": "STOCK_SJ_Shanbay/README.md",
-          "size": 469
+          "size": 2057
         }
       ]
     },
@@ -2546,7 +2636,7 @@ const directoryData = {
           "name": "README.md",
           "displayName": "概述",
           "path": "STOCK_STG_Sunlands/README.md",
-          "size": 574
+          "size": 1554
         }
       ]
     },
@@ -2560,7 +2650,7 @@ const directoryData = {
           "name": "README.md",
           "displayName": "概述",
           "path": "STOCK_TEDU_Tarena/README.md",
-          "size": 579
+          "size": 5537
         }
       ]
     },
@@ -2574,7 +2664,7 @@ const directoryData = {
           "name": "README.md",
           "displayName": "概述",
           "path": "STOCK_HLG_Hailiang/README.md",
-          "size": 1242
+          "size": 5460
         }
       ]
     },
@@ -2588,7 +2678,13 @@ const directoryData = {
           "name": "README.md",
           "displayName": "概述",
           "path": "STOCK_GHG_GreenTree/README.md",
-          "size": 1827
+          "size": 4593
+        },
+        {
+          "name": "01_Financial_Data.md",
+          "displayName": "01_Financial_Data",
+          "path": "STOCK_GHG_GreenTree/01_Financial_Data.md",
+          "size": 1921
         }
       ]
     },
@@ -2616,7 +2712,19 @@ const directoryData = {
           "name": "README.md",
           "displayName": "概述",
           "path": "STOCK_AMBO_Ambow/README.md",
-          "size": 880
+          "size": 4302
+        },
+        {
+          "name": "00_Executive_Summary.md",
+          "displayName": "00_执行摘要",
+          "path": "STOCK_AMBO_Ambow/00_Executive_Summary.md",
+          "size": 4225
+        },
+        {
+          "name": "research_log.md",
+          "displayName": "research_log",
+          "path": "STOCK_AMBO_Ambow/sources/research_log.md",
+          "size": 3509
         }
       ]
     },
@@ -2630,7 +2738,19 @@ const directoryData = {
           "name": "README.md",
           "displayName": "概述",
           "path": "STOCK_JOYY_Joyy/README.md",
-          "size": 1098
+          "size": 5550
+        },
+        {
+          "name": "00_Executive_Summary.md",
+          "displayName": "00_执行摘要",
+          "path": "STOCK_JOYY_Joyy/00_Executive_Summary.md",
+          "size": 5335
+        },
+        {
+          "name": "research_log.md",
+          "displayName": "research_log",
+          "path": "STOCK_JOYY_Joyy/sources/research_log.md",
+          "size": 4101
         }
       ]
     },
@@ -2645,20 +2765,6 @@ const directoryData = {
           "displayName": "概述",
           "path": "STOCK_EDU_NewOriental/README.md",
           "size": 17362
-        }
-      ]
-    },
-    {
-      "id": "STOCK_689009_Ninebot",
-      "name": "九号公司 (689009)",
-      "folder": "STOCK_689009_Ninebot",
-      "market": "cn",
-      "files": [
-        {
-          "name": "README.md",
-          "displayName": "概述",
-          "path": "STOCK_689009_Ninebot/README.md",
-          "size": 2119
         }
       ]
     },
@@ -2701,6 +2807,12 @@ const directoryData = {
           "displayName": "概述",
           "path": "STOCK_DDL_Dingdong/README.md",
           "size": 5060
+        },
+        {
+          "name": "02_Business_Analysis.md",
+          "displayName": "02_Business_Analysis",
+          "path": "STOCK_DDL_Dingdong/02_Business_Analysis.md",
+          "size": 2852
         }
       ]
     },
@@ -2715,6 +2827,12 @@ const directoryData = {
           "displayName": "概述",
           "path": "STOCK_RLX_Relonx/README.md",
           "size": 5244
+        },
+        {
+          "name": "02_Industry_Analysis.md",
+          "displayName": "02_行业分析",
+          "path": "STOCK_RLX_Relonx/02_Industry_Analysis.md",
+          "size": 2927
         }
       ]
     },
@@ -2743,6 +2861,12 @@ const directoryData = {
           "displayName": "概述",
           "path": "STOCK_TUYA_Tuya/README.md",
           "size": 5389
+        },
+        {
+          "name": "02_Technology_Analysis.md",
+          "displayName": "02_Technology_Analysis",
+          "path": "STOCK_TUYA_Tuya/02_Technology_Analysis.md",
+          "size": 3514
         }
       ]
     },
@@ -2757,6 +2881,12 @@ const directoryData = {
           "displayName": "概述",
           "path": "STOCK_LU_Lufax/README.md",
           "size": 4860
+        },
+        {
+          "name": "02_Business_Transformation.md",
+          "displayName": "02_Business_Transformation",
+          "path": "STOCK_LU_Lufax/02_Business_Transformation.md",
+          "size": 4128
         }
       ]
     },
@@ -2770,7 +2900,13 @@ const directoryData = {
           "name": "README.md",
           "displayName": "概述",
           "path": "STOCK_HUYA_Huya/README.md",
-          "size": 5290
+          "size": 4939
+        },
+        {
+          "name": "02_Competitive_Analysis.md",
+          "displayName": "02_Competitive_Analysis",
+          "path": "STOCK_HUYA_Huya/02_Competitive_Analysis.md",
+          "size": 3910
         }
       ]
     },
@@ -2799,6 +2935,12 @@ const directoryData = {
           "displayName": "概述",
           "path": "STOCK_API_Agora/README.md",
           "size": 5544
+        },
+        {
+          "name": "README_2026.md",
+          "displayName": "README_2026",
+          "path": "STOCK_API_Agora/README_2026.md",
+          "size": 7576
         }
       ]
     },
@@ -2813,6 +2955,12 @@ const directoryData = {
           "displayName": "概述",
           "path": "STOCK_QD_Qudian/README.md",
           "size": 4847
+        },
+        {
+          "name": "02_Financial_Analysis.md",
+          "displayName": "02_Financial_Analysis",
+          "path": "STOCK_QD_Qudian/02_Financial_Analysis.md",
+          "size": 3197
         }
       ]
     },
@@ -2827,6 +2975,12 @@ const directoryData = {
           "displayName": "概述",
           "path": "STOCK_RERE_Ataike/README.md",
           "size": 5535
+        },
+        {
+          "name": "02_Financial_Analysis.md",
+          "displayName": "02_Financial_Analysis",
+          "path": "STOCK_RERE_Ataike/02_Financial_Analysis.md",
+          "size": 2274
         }
       ]
     },
@@ -2841,6 +2995,12 @@ const directoryData = {
           "displayName": "概述",
           "path": "STOCK_NIU_Niu/README.md",
           "size": 5763
+        },
+        {
+          "name": "README_2026.md",
+          "displayName": "README_2026",
+          "path": "STOCK_NIU_Niu/README_2026.md",
+          "size": 7294
         }
       ]
     },
@@ -2855,6 +3015,12 @@ const directoryData = {
           "displayName": "概述",
           "path": "STOCK_BZUN_Baozun/README.md",
           "size": 5150
+        },
+        {
+          "name": "02_Business_Analysis.md",
+          "displayName": "02_Business_Analysis",
+          "path": "STOCK_BZUN_Baozun/02_Business_Analysis.md",
+          "size": 3671
         }
       ]
     },
@@ -2995,6 +3161,12 @@ const directoryData = {
           "displayName": "概述",
           "path": "STOCK_JFIN_Jiayin/README.md",
           "size": 6728
+        },
+        {
+          "name": "README_2026.md",
+          "displayName": "README_2026",
+          "path": "STOCK_JFIN_Jiayin/README_2026.md",
+          "size": 8159
         }
       ]
     },
@@ -3009,6 +3181,12 @@ const directoryData = {
           "displayName": "概述",
           "path": "STOCK_CSIQ_CanadianSolar/README.md",
           "size": 6639
+        },
+        {
+          "name": "README_2026.md",
+          "displayName": "README_2026",
+          "path": "STOCK_CSIQ_CanadianSolar/README_2026.md",
+          "size": 8895
         }
       ]
     },
@@ -3525,6 +3703,12 @@ const directoryData = {
           "displayName": "00_执行摘要",
           "path": "STOCK_TIGR_Tiger_Brokers/00_Executive_Summary.md",
           "size": 9200
+        },
+        {
+          "name": "README.md",
+          "displayName": "概述",
+          "path": "STOCK_TIGR_Tiger_Brokers/README.md",
+          "size": 5091
         }
       ]
     },
@@ -6717,130 +6901,6 @@ const directoryData = {
       ]
     },
     {
-      "id": "STOCK_300750_CATL",
-      "name": "宁德时代 (300750)",
-      "folder": "STOCK_300750_CATL",
-      "market": "cn",
-      "files": [
-        {
-          "name": "00_Executive_Summary.md",
-          "displayName": "00_执行摘要",
-          "path": "STOCK_300750_CATL/00_Executive_Summary.md",
-          "size": 11756
-        },
-        {
-          "name": "01_Business_Foundation.md",
-          "displayName": "01_业务基础",
-          "path": "STOCK_300750_CATL/01_Business_Foundation.md",
-          "size": 676
-        },
-        {
-          "name": "02_Industry_Analysis.md",
-          "displayName": "02_行业分析",
-          "path": "STOCK_300750_CATL/02_Industry_Analysis.md",
-          "size": 667
-        },
-        {
-          "name": "03_Business_Breakdown.md",
-          "displayName": "03_业务分解",
-          "path": "STOCK_300750_CATL/03_Business_Breakdown.md",
-          "size": 664
-        },
-        {
-          "name": "04_Financial_Quality.md",
-          "displayName": "04_财务质量",
-          "path": "STOCK_300750_CATL/04_Financial_Quality.md",
-          "size": 664
-        },
-        {
-          "name": "05_Governance_Analysis.md",
-          "displayName": "05_治理分析",
-          "path": "STOCK_300750_CATL/05_Governance_Analysis.md",
-          "size": 664
-        },
-        {
-          "name": "06_Market_Sentiment.md",
-          "displayName": "06_市场情绪",
-          "path": "STOCK_300750_CATL/06_Market_Sentiment.md",
-          "size": 661
-        },
-        {
-          "name": "07_Valuation_Moat.md",
-          "displayName": "07_估值护城河",
-          "path": "STOCK_300750_CATL/07_Valuation_Moat.md",
-          "size": 660
-        },
-        {
-          "name": "README.md",
-          "displayName": "概述",
-          "path": "STOCK_300750_CATL/README.md",
-          "size": 2479
-        }
-      ]
-    },
-    {
-      "id": "STOCK_300059_Eastmoney",
-      "name": "东方财富 (300059)",
-      "folder": "STOCK_300059_Eastmoney",
-      "market": "cn",
-      "files": [
-        {
-          "name": "00_Executive_Summary.md",
-          "displayName": "00_执行摘要",
-          "path": "STOCK_300059_Eastmoney/00_Executive_Summary.md",
-          "size": 15690
-        },
-        {
-          "name": "01_Business_Foundation.md",
-          "displayName": "01_业务基础",
-          "path": "STOCK_300059_Eastmoney/01_Business_Foundation.md",
-          "size": 676
-        },
-        {
-          "name": "02_Industry_Analysis.md",
-          "displayName": "02_行业分析",
-          "path": "STOCK_300059_Eastmoney/02_Industry_Analysis.md",
-          "size": 667
-        },
-        {
-          "name": "03_Business_Breakdown.md",
-          "displayName": "03_业务分解",
-          "path": "STOCK_300059_Eastmoney/03_Business_Breakdown.md",
-          "size": 664
-        },
-        {
-          "name": "04_Financial_Quality.md",
-          "displayName": "04_财务质量",
-          "path": "STOCK_300059_Eastmoney/04_Financial_Quality.md",
-          "size": 664
-        },
-        {
-          "name": "05_Governance_Analysis.md",
-          "displayName": "05_治理分析",
-          "path": "STOCK_300059_Eastmoney/05_Governance_Analysis.md",
-          "size": 664
-        },
-        {
-          "name": "06_Market_Sentiment.md",
-          "displayName": "06_市场情绪",
-          "path": "STOCK_300059_Eastmoney/06_Market_Sentiment.md",
-          "size": 661
-        },
-        {
-          "name": "07_Valuation_Moat.md",
-          "displayName": "07_估值护城河",
-          "path": "STOCK_300059_Eastmoney/07_Valuation_Moat.md",
-          "size": 660
-        },
-        {
-          "name": "README.md",
-          "displayName": "概述",
-          "path": "STOCK_300059_Eastmoney/README.md",
-          "size": 1532
-        }
-      ]
-    },
-    {
       "id": "STOCK_300033_10jqka",
       "name": "同花顺 (300033)",
       "folder": "STOCK_300033_10jqka",
@@ -7015,6 +7075,12 @@ const directoryData = {
           "displayName": "00_执行摘要",
           "path": "STOCK_300529_Jafron/00_Executive_Summary.md",
           "size": 14020
+        },
+        {
+          "name": "README_2026.md",
+          "displayName": "README_2026",
+          "path": "STOCK_300529_Jafron/README_2026.md",
+          "size": 7297
         }
       ]
     },
@@ -7147,46 +7213,6 @@ const directoryData = {
       ]
     },
     {
-      "id": "STOCK_300955_Wanhang",
-      "name": "万航 (300955)",
-      "folder": "STOCK_300955_Wanhang",
-      "market": "cn",
-      "files": [
-        {
-          "name": "00_Executive_Summary.md",
-          "displayName": "00_执行摘要",
-          "path": "STOCK_300955_Wanhang/00_Executive_Summary.md",
-          "size": 6360
-        },
-        {
-          "name": "Comprehensive_Report.md",
-          "displayName": "Comprehensive_Report",
-          "path": "STOCK_300955_Wanhang/Comprehensive_Report.md",
-          "size": 10848
-        },
-        {
-          "name": "README.md",
-          "displayName": "概述",
-          "path": "STOCK_300955_Wanhang/README.md",
-          "size": 2184
-        }
-      ]
-    },
-    {
-      "id": "STOCK_300968_Hygon",
-      "name": "海光信息 (300968)",
-      "folder": "STOCK_300968_Hygon",
-      "market": "cn",
-      "files": [
-        {
-          "name": "00_Executive_Summary.md",
-          "displayName": "00_执行摘要",
-          "path": "STOCK_300968_Hygon/00_Executive_Summary.md",
-          "size": 2165
-        }
-      ]
-    },
-    {
       "id": "STOCK_300357_YaWo",
       "name": "我武生物 (300357)",
       "folder": "STOCK_300357_YaWo",
@@ -7203,20 +7229,6 @@ const directoryData = {
           "displayName": "概述",
           "path": "STOCK_300357_YaWo/README.md",
           "size": 13798
-        }
-      ]
-    },
-    {
-      "id": "STOCK_300955_Beta",
-      "name": "贝塔 (300955)",
-      "folder": "STOCK_300955_Beta",
-      "market": "cn",
-      "files": [
-        {
-          "name": "00_Executive_Summary.md",
-          "displayName": "00_执行摘要",
-          "path": "STOCK_300955_Beta/00_Executive_Summary.md",
-          "size": 3788
         }
       ]
     },
@@ -7303,26 +7315,6 @@ const directoryData = {
       ]
     },
     {
-      "id": "STOCK_300496_THUNDERSOFT",
-      "name": "中科创达 (300496)",
-      "folder": "STOCK_300496_THUNDERSOFT",
-      "market": "cn",
-      "files": [
-        {
-          "name": "00_Executive_Summary.md",
-          "displayName": "00_执行摘要",
-          "path": "STOCK_300496_THUNDERSOFT/00_Executive_Summary.md",
-          "size": 12034
-        },
-        {
-          "name": "README.md",
-          "displayName": "概述",
-          "path": "STOCK_300496_THUNDERSOFT/README.md",
-          "size": 14300
-        }
-      ]
-    },
-    {
       "id": "STOCK_300502_Xinyisheng",
       "name": "新易盛 (300502)",
       "folder": "STOCK_300502_Xinyisheng",
@@ -7353,26 +7345,6 @@ const directoryData = {
           "displayName": "00_执行摘要",
           "path": "STOCK_300735_Guanghong/00_Executive_Summary.md",
           "size": 12474
-        }
-      ]
-    },
-    {
-      "id": "STOCK_300724_Jiejiawei",
-      "name": "捷佳伟创 (300724)",
-      "folder": "STOCK_300724_Jiejiawei",
-      "market": "cn",
-      "files": [
-        {
-          "name": "00_Executive_Summary.md",
-          "displayName": "00_执行摘要",
-          "path": "STOCK_300724_Jiejiawei/00_Executive_Summary.md",
-          "size": 12166
-        },
-        {
-          "name": "README.md",
-          "displayName": "概述",
-          "path": "STOCK_300724_Jiejiawei/README.md",
-          "size": 15377
         }
       ]
     },
@@ -8389,26 +8361,6 @@ const directoryData = {
       ]
     },
     {
-      "id": "STOCK_300002_SZHANYOU",
-      "name": "神州数码 (300002)",
-      "folder": "STOCK_300002_SZHANYOU",
-      "market": "cn",
-      "files": [
-        {
-          "name": "00_Executive_Summary.md",
-          "displayName": "00_执行摘要",
-          "path": "STOCK_300002_SZHANYOU/00_Executive_Summary.md",
-          "size": 9815
-        },
-        {
-          "name": "README.md",
-          "displayName": "概述",
-          "path": "STOCK_300002_SZHANYOU/README.md",
-          "size": 14545
-        }
-      ]
-    },
-    {
       "id": "STOCK_300001_TGOOD",
       "name": "特锐德 (300001)",
       "folder": "STOCK_300001_TGOOD",
@@ -8481,32 +8433,12 @@ const directoryData = {
           "displayName": "00_执行摘要",
           "path": "STOCK_301003_ZHONGKE/00_Executive_Summary.md",
           "size": 2672
-        }
-      ]
-    },
-    {
-      "id": "STOCK_301011_SANMIN",
-      "name": "三民 (301011)",
-      "folder": "STOCK_301011_SANMIN",
-      "market": "cn",
-      "files": [
-        {
-          "name": "00_Executive_Summary.md",
-          "displayName": "00_执行摘要",
-          "path": "STOCK_301011_SANMIN/00_Executive_Summary.md",
-          "size": 5811
         },
         {
-          "name": "Comprehensive_Report.md",
-          "displayName": "Comprehensive_Report",
-          "path": "STOCK_301011_SANMIN/Comprehensive_Report.md",
-          "size": 10342
-        },
-        {
-          "name": "README.md",
-          "displayName": "概述",
-          "path": "STOCK_301011_SANMIN/README.md",
-          "size": 1990
+          "name": "02_Business_Analysis.md",
+          "displayName": "02_Business_Analysis",
+          "path": "STOCK_301003_ZHONGKE/02_Business_Analysis.md",
+          "size": 4239
         }
       ]
     },
@@ -8615,32 +8547,6 @@ const directoryData = {
       ]
     },
     {
-      "id": "STOCK_301188_HANFEI",
-      "name": "韩飞 (301188)",
-      "folder": "STOCK_301188_HANFEI",
-      "market": "cn",
-      "files": [
-        {
-          "name": "00_Executive_Summary.md",
-          "displayName": "00_执行摘要",
-          "path": "STOCK_301188_HANFEI/00_Executive_Summary.md",
-          "size": 4806
-        },
-        {
-          "name": "Comprehensive_Report.md",
-          "displayName": "Comprehensive_Report",
-          "path": "STOCK_301188_HANFEI/Comprehensive_Report.md",
-          "size": 10988
-        },
-        {
-          "name": "README.md",
-          "displayName": "概述",
-          "path": "STOCK_301188_HANFEI/README.md",
-          "size": 2000
-        }
-      ]
-    },
-    {
       "id": "STOCK_301222_GREE",
       "name": "格力 (301222)",
       "folder": "STOCK_301222_GREE",
@@ -8729,6 +8635,12 @@ const directoryData = {
           "displayName": "00_执行摘要",
           "path": "STOCK_300947_HENGDA/00_Executive_Summary.md",
           "size": 1757
+        },
+        {
+          "name": "README.md",
+          "displayName": "概述",
+          "path": "STOCK_300947_HENGDA/README.md",
+          "size": 3987
         }
       ]
     },
@@ -8742,21 +8654,43 @@ const directoryData = {
           "name": "00_Executive_Summary.md",
           "displayName": "00_执行摘要",
           "path": "STOCK_300925_FABEN/00_Executive_Summary.md",
-          "size": 1124
-        }
-      ]
-    },
-    {
-      "id": "STOCK_300919_ZHONGKE",
-      "name": "中科电气 (300919)",
-      "folder": "STOCK_300919_ZHONGKE",
-      "market": "cn",
-      "files": [
+          "size": 3377
+        },
         {
-          "name": "00_Executive_Summary.md",
-          "displayName": "00_执行摘要",
-          "path": "STOCK_300919_ZHONGKE/00_Executive_Summary.md",
-          "size": 283
+          "name": "01_Company_Overview.md",
+          "displayName": "01_Company_Overview",
+          "path": "STOCK_300925_FABEN/01_Company_Overview.md",
+          "size": 3788
+        },
+        {
+          "name": "02_Financial_Analysis.md",
+          "displayName": "02_Financial_Analysis",
+          "path": "STOCK_300925_FABEN/02_Financial_Analysis.md",
+          "size": 4178
+        },
+        {
+          "name": "03_Business_Analysis.md",
+          "displayName": "03_Business_Analysis",
+          "path": "STOCK_300925_FABEN/03_Business_Analysis.md",
+          "size": 5242
+        },
+        {
+          "name": "04_Risk_Analysis.md",
+          "displayName": "04_Risk_Analysis",
+          "path": "STOCK_300925_FABEN/04_Risk_Analysis.md",
+          "size": 4866
+        },
+        {
+          "name": "README.md",
+          "displayName": "概述",
+          "path": "STOCK_300925_FABEN/README.md",
+          "size": 3282
+        },
+        {
+          "name": "research_log.md",
+          "displayName": "research_log",
+          "path": "STOCK_300925_FABEN/sources/research_log.md",
+          "size": 3452
         }
       ]
     },
@@ -8917,118 +8851,6 @@ const directoryData = {
       ]
     },
     {
-      "id": "STOCK_300905_BAOCHENG",
-      "name": "宝丽迪 (300905)",
-      "folder": "STOCK_300905_BAOCHENG",
-      "market": "cn",
-      "files": [
-        {
-          "name": "00_Executive_Summary.md",
-          "displayName": "00_执行摘要",
-          "path": "STOCK_300905_BAOCHENG/00_Executive_Summary.md",
-          "size": 215
-        }
-      ]
-    },
-    {
-      "id": "STOCK_300896_HITHINK",
-      "name": "爱美客 (300896)",
-      "folder": "STOCK_300896_HITHINK",
-      "market": "cn",
-      "files": [
-        {
-          "name": "00_Executive_Summary.md",
-          "displayName": "00_执行摘要",
-          "path": "STOCK_300896_HITHINK/00_Executive_Summary.md",
-          "size": 209
-        }
-      ]
-    },
-    {
-      "id": "STOCK_300888_CHINASOFT",
-      "name": "中科软 (300888)",
-      "folder": "STOCK_300888_CHINASOFT",
-      "market": "cn",
-      "files": [
-        {
-          "name": "00_Executive_Summary.md",
-          "displayName": "00_执行摘要",
-          "path": "STOCK_300888_CHINASOFT/00_Executive_Summary.md",
-          "size": 224
-        }
-      ]
-    },
-    {
-      "id": "STOCK_300866_ACHEN",
-      "name": "安克创新 (300866)",
-      "folder": "STOCK_300866_ACHEN",
-      "market": "cn",
-      "files": [
-        {
-          "name": "00_Executive_Summary.md",
-          "displayName": "00_执行摘要",
-          "path": "STOCK_300866_ACHEN/00_Executive_Summary.md",
-          "size": 202
-        }
-      ]
-    },
-    {
-      "id": "STOCK_300821_SANUO",
-      "name": "三孚新科 (300821)",
-      "folder": "STOCK_300821_SANUO",
-      "market": "cn",
-      "files": [
-        {
-          "name": "00_Executive_Summary.md",
-          "displayName": "00_执行摘要",
-          "path": "STOCK_300821_SANUO/00_Executive_Summary.md",
-          "size": 208
-        }
-      ]
-    },
-    {
-      "id": "STOCK_300782_YOFC",
-      "name": "长飞光纤 (300782)",
-      "folder": "STOCK_300782_YOFC",
-      "market": "cn",
-      "files": [
-        {
-          "name": "00_Executive_Summary.md",
-          "displayName": "00_执行摘要",
-          "path": "STOCK_300782_YOFC/00_Executive_Summary.md",
-          "size": 217
-        }
-      ]
-    },
-    {
-      "id": "STOCK_300777_FULLHAN",
-      "name": "中科海讯 (300777)",
-      "folder": "STOCK_300777_FULLHAN",
-      "market": "cn",
-      "files": [
-        {
-          "name": "00_Executive_Summary.md",
-          "displayName": "00_执行摘要",
-          "path": "STOCK_300777_FULLHAN/00_Executive_Summary.md",
-          "size": 413
-        }
-      ]
-    },
-    {
-      "id": "STOCK_300766_DAILY",
-      "name": "每日互动 (300766)",
-      "folder": "STOCK_300766_DAILY",
-      "market": "cn",
-      "files": [
-        {
-          "name": "00_Executive_Summary.md",
-          "displayName": "00_执行摘要",
-          "path": "STOCK_300766_DAILY/00_Executive_Summary.md",
-          "size": 756
-        }
-      ]
-    },
-    {
       "id": "STOCK_300454_SANGFOR",
       "name": "深信服 (300454)",
       "folder": "STOCK_300454_SANGFOR",
@@ -9045,26 +8867,6 @@ const directoryData = {
           "displayName": "概述",
           "path": "STOCK_300454_SANGFOR/README.md",
           "size": 13075
-        }
-      ]
-    },
-    {
-      "id": "STOCK_300308_INNOANCE",
-      "name": "中际旭创 (300308)",
-      "folder": "STOCK_300308_INNOANCE",
-      "market": "cn",
-      "files": [
-        {
-          "name": "00_Executive_Summary.md",
-          "displayName": "00_执行摘要",
-          "path": "STOCK_300308_INNOANCE/00_Executive_Summary.md",
-          "size": 1143
-        },
-        {
-          "name": "README.md",
-          "displayName": "概述",
-          "path": "STOCK_300308_INNOANCE/README.md",
-          "size": 14066
         }
       ]
     },
@@ -9098,7 +8900,19 @@ const directoryData = {
           "name": "00_Executive_Summary.md",
           "displayName": "00_执行摘要",
           "path": "STOCK_300751_MINDRAY/00_Executive_Summary.md",
-          "size": 1780
+          "size": 5557
+        },
+        {
+          "name": "README.md",
+          "displayName": "概述",
+          "path": "STOCK_300751_MINDRAY/README.md",
+          "size": 5072
+        },
+        {
+          "name": "research_log.md",
+          "displayName": "research_log",
+          "path": "STOCK_300751_MINDRAY/sources/research_log.md",
+          "size": 3627
         }
       ]
     },
@@ -9113,138 +8927,6 @@ const directoryData = {
           "displayName": "概述",
           "path": "STOCK_300059_EAST_MONEY/README.md",
           "size": 2092
-        }
-      ]
-    },
-    {
-      "id": "STOCK_300015_AIER_EYE",
-      "name": "爱尔眼科 (300015)",
-      "folder": "STOCK_300015_AIER_EYE",
-      "market": "cn",
-      "files": [
-        {
-          "name": "00_Executive_Summary.md",
-          "displayName": "00_执行摘要",
-          "path": "STOCK_300015_AIER_EYE/00_Executive_Summary.md",
-          "size": 7178
-        },
-        {
-          "name": "Comprehensive_Report.md",
-          "displayName": "Comprehensive_Report",
-          "path": "STOCK_300015_AIER_EYE/Comprehensive_Report.md",
-          "size": 13655
-        },
-        {
-          "name": "README.md",
-          "displayName": "概述",
-          "path": "STOCK_300015_AIER_EYE/README.md",
-          "size": 2587
-        }
-      ]
-    },
-    {
-      "id": "STOCK_300017_WANGSU_SCIENCE",
-      "name": "网宿科技 (300017)",
-      "folder": "STOCK_300017_WANGSU_SCIENCE",
-      "market": "cn",
-      "files": [
-        {
-          "name": "00_Executive_Summary.md",
-          "displayName": "00_执行摘要",
-          "path": "STOCK_300017_WANGSU_SCIENCE/00_Executive_Summary.md",
-          "size": 3259
-        },
-        {
-          "name": "Comprehensive_Report.md",
-          "displayName": "Comprehensive_Report",
-          "path": "STOCK_300017_WANGSU_SCIENCE/Comprehensive_Report.md",
-          "size": 4204
-        },
-        {
-          "name": "README.md",
-          "displayName": "概述",
-          "path": "STOCK_300017_WANGSU_SCIENCE/README.md",
-          "size": 2003
-        }
-      ]
-    },
-    {
-      "id": "STOCK_300033_TONGHUA_RESEARCH",
-      "name": "同花顺 (300033)",
-      "folder": "STOCK_300033_TONGHUA_RESEARCH",
-      "market": "cn",
-      "files": [
-        {
-          "name": "00_Executive_Summary.md",
-          "displayName": "00_执行摘要",
-          "path": "STOCK_300033_TONGHUA_RESEARCH/00_Executive_Summary.md",
-          "size": 4052
-        },
-        {
-          "name": "Comprehensive_Report.md",
-          "displayName": "Comprehensive_Report",
-          "path": "STOCK_300033_TONGHUA_RESEARCH/Comprehensive_Report.md",
-          "size": 11286
-        },
-        {
-          "name": "README.md",
-          "displayName": "概述",
-          "path": "STOCK_300033_TONGHUA_RESEARCH/README.md",
-          "size": 2279
-        }
-      ]
-    },
-    {
-      "id": "STOCK_300115_CHANGYING",
-      "name": "长盈 (300115)",
-      "folder": "STOCK_300115_CHANGYING",
-      "market": "cn",
-      "files": [
-        {
-          "name": "00_Executive_Summary.md",
-          "displayName": "00_执行摘要",
-          "path": "STOCK_300115_CHANGYING/00_Executive_Summary.md",
-          "size": 3195
-        },
-        {
-          "name": "Comprehensive_Report.md",
-          "displayName": "Comprehensive_Report",
-          "path": "STOCK_300115_CHANGYING/Comprehensive_Report.md",
-          "size": 4028
-        },
-        {
-          "name": "README.md",
-          "displayName": "概述",
-          "path": "STOCK_300115_CHANGYING/README.md",
-          "size": 2075
-        }
-      ]
-    },
-    {
-      "id": "STOCK__STOCK_",
-      "name": "未知股票",
-      "folder": "STOCK__STOCK_",
-      "market": "us",
-      "files": [
-        {
-          "name": "README.md",
-          "displayName": "概述",
-          "path": "STOCK__STOCK_/README.md",
-          "size": 82
-        }
-      ]
-    },
-    {
-      "id": "STOCK_300002_SHENZHOU",
-      "name": "神州 (300002)",
-      "folder": "STOCK_300002_SHENZHOU",
-      "market": "cn",
-      "files": [
-        {
-          "name": "README.md",
-          "displayName": "概述",
-          "path": "STOCK_300002_SHENZHOU/README.md",
-          "size": 1368
         }
       ]
     },
@@ -10179,68 +9861,6 @@ const directoryData = {
       ]
     },
     {
-      "id": "STOCK_300502_Innolight",
-      "name": "旌屹科技 (300502)",
-      "folder": "STOCK_300502_Innolight",
-      "market": "cn",
-      "files": [
-        {
-          "name": "00_Executive_Summary.md",
-          "displayName": "00_执行摘要",
-          "path": "STOCK_300502_Innolight/00_Executive_Summary.md",
-          "size": 1417
-        },
-        {
-          "name": "01_Business_Foundation.md",
-          "displayName": "01_业务基础",
-          "path": "STOCK_300502_Innolight/01_Business_Foundation.md",
-          "size": 670
-        },
-        {
-          "name": "02_Industry_Analysis.md",
-          "displayName": "02_行业分析",
-          "path": "STOCK_300502_Innolight/02_Industry_Analysis.md",
-          "size": 661
-        },
-        {
-          "name": "03_Business_Breakdown.md",
-          "displayName": "03_业务分解",
-          "path": "STOCK_300502_Innolight/03_Business_Breakdown.md",
-          "size": 658
-        },
-        {
-          "name": "04_Financial_Quality.md",
-          "displayName": "04_财务质量",
-          "path": "STOCK_300502_Innolight/04_Financial_Quality.md",
-          "size": 658
-        },
-        {
-          "name": "05_Governance_Analysis.md",
-          "displayName": "05_治理分析",
-          "path": "STOCK_300502_Innolight/05_Governance_Analysis.md",
-          "size": 658
-        },
-        {
-          "name": "06_Market_Sentiment.md",
-          "displayName": "06_市场情绪",
-          "path": "STOCK_300502_Innolight/06_Market_Sentiment.md",
-          "size": 655
-        },
-        {
-          "name": "07_Valuation_Moat.md",
-          "displayName": "07_估值护城河",
-          "path": "STOCK_300502_Innolight/07_Valuation_Moat.md",
-          "size": 654
-        },
-        {
-          "name": "README.md",
-          "displayName": "概述",
-          "path": "STOCK_300502_Innolight/README.md",
-          "size": 1520
-        }
-      ]
-    },
-    {
       "id": "STOCK_300724_Jinjia",
       "name": "金嘉 (300724)",
       "folder": "STOCK_300724_Jinjia",
@@ -10298,68 +9918,6 @@ const directoryData = {
           "name": "README.md",
           "displayName": "概述",
           "path": "STOCK_300724_Jinjia/README.md",
-          "size": 1526
-        }
-      ]
-    },
-    {
-      "id": "STOCK_300735_Light",
-      "name": "光韵达 (300735)",
-      "folder": "STOCK_300735_Light",
-      "market": "cn",
-      "files": [
-        {
-          "name": "00_Executive_Summary.md",
-          "displayName": "00_执行摘要",
-          "path": "STOCK_300735_Light/00_Executive_Summary.md",
-          "size": 1426
-        },
-        {
-          "name": "01_Business_Foundation.md",
-          "displayName": "01_业务基础",
-          "path": "STOCK_300735_Light/01_Business_Foundation.md",
-          "size": 676
-        },
-        {
-          "name": "02_Industry_Analysis.md",
-          "displayName": "02_行业分析",
-          "path": "STOCK_300735_Light/02_Industry_Analysis.md",
-          "size": 667
-        },
-        {
-          "name": "03_Business_Breakdown.md",
-          "displayName": "03_业务分解",
-          "path": "STOCK_300735_Light/03_Business_Breakdown.md",
-          "size": 664
-        },
-        {
-          "name": "04_Financial_Quality.md",
-          "displayName": "04_财务质量",
-          "path": "STOCK_300735_Light/04_Financial_Quality.md",
-          "size": 664
-        },
-        {
-          "name": "05_Governance_Analysis.md",
-          "displayName": "05_治理分析",
-          "path": "STOCK_300735_Light/05_Governance_Analysis.md",
-          "size": 664
-        },
-        {
-          "name": "06_Market_Sentiment.md",
-          "displayName": "06_市场情绪",
-          "path": "STOCK_300735_Light/06_Market_Sentiment.md",
-          "size": 661
-        },
-        {
-          "name": "07_Valuation_Moat.md",
-          "displayName": "07_估值护城河",
-          "path": "STOCK_300735_Light/07_Valuation_Moat.md",
-          "size": 660
-        },
-        {
-          "name": "README.md",
-          "displayName": "概述",
-          "path": "STOCK_300735_Light/README.md",
           "size": 1526
         }
       ]
@@ -10608,68 +10166,6 @@ const directoryData = {
           "name": "README.md",
           "displayName": "概述",
           "path": "STOCK_300803_Compass/README.md",
-          "size": 1520
-        }
-      ]
-    },
-    {
-      "id": "STOCK_300896_Eime",
-      "name": "爱美客 (300896)",
-      "folder": "STOCK_300896_Eime",
-      "market": "cn",
-      "files": [
-        {
-          "name": "00_Executive_Summary.md",
-          "displayName": "00_执行摘要",
-          "path": "STOCK_300896_Eime/00_Executive_Summary.md",
-          "size": 1417
-        },
-        {
-          "name": "01_Business_Foundation.md",
-          "displayName": "01_业务基础",
-          "path": "STOCK_300896_Eime/01_Business_Foundation.md",
-          "size": 670
-        },
-        {
-          "name": "02_Industry_Analysis.md",
-          "displayName": "02_行业分析",
-          "path": "STOCK_300896_Eime/02_Industry_Analysis.md",
-          "size": 661
-        },
-        {
-          "name": "03_Business_Breakdown.md",
-          "displayName": "03_业务分解",
-          "path": "STOCK_300896_Eime/03_Business_Breakdown.md",
-          "size": 658
-        },
-        {
-          "name": "04_Financial_Quality.md",
-          "displayName": "04_财务质量",
-          "path": "STOCK_300896_Eime/04_Financial_Quality.md",
-          "size": 658
-        },
-        {
-          "name": "05_Governance_Analysis.md",
-          "displayName": "05_治理分析",
-          "path": "STOCK_300896_Eime/05_Governance_Analysis.md",
-          "size": 658
-        },
-        {
-          "name": "06_Market_Sentiment.md",
-          "displayName": "06_市场情绪",
-          "path": "STOCK_300896_Eime/06_Market_Sentiment.md",
-          "size": 655
-        },
-        {
-          "name": "07_Valuation_Moat.md",
-          "displayName": "07_估值护城河",
-          "path": "STOCK_300896_Eime/07_Valuation_Moat.md",
-          "size": 654
-        },
-        {
-          "name": "README.md",
-          "displayName": "概述",
-          "path": "STOCK_300896_Eime/README.md",
           "size": 1520
         }
       ]
@@ -11979,20 +11475,6 @@ const directoryData = {
       ]
     },
     {
-      "id": "STOCK_688349_SH_Sany_Repower",
-      "name": "三一 (688349)",
-      "folder": "STOCK_688349_SH_Sany_Repower",
-      "market": "cn",
-      "files": [
-        {
-          "name": "03_业务拆解.md",
-          "displayName": "03_业务拆解",
-          "path": "STOCK_688349_SH_Sany_Repower/03_业务拆解.md",
-          "size": 23467
-        }
-      ]
-    },
-    {
       "id": "STOCK_688525_SH_Biwin_Storage",
       "name": "佰维存储 (688525)",
       "folder": "STOCK_688525_SH_Biwin_Storage",
@@ -12797,34 +12279,6 @@ const directoryData = {
       ]
     },
     {
-      "id": "STOCK_688036_Transsion",
-      "name": "传音 (688036)",
-      "folder": "STOCK_688036_Transsion",
-      "market": "cn",
-      "files": [
-        {
-          "name": "README.md",
-          "displayName": "概述",
-          "path": "STOCK_688036_Transsion/README.md",
-          "size": 14837
-        }
-      ]
-    },
-    {
-      "id": "STOCK_688169_Roborock",
-      "name": "石头科技 (688169)",
-      "folder": "STOCK_688169_Roborock",
-      "market": "cn",
-      "files": [
-        {
-          "name": "README.md",
-          "displayName": "概述",
-          "path": "STOCK_688169_Roborock/README.md",
-          "size": 14314
-        }
-      ]
-    },
-    {
       "id": "STOCK_002602_Shijiagiantong",
       "name": "世纪恒通 (002602)",
       "folder": "STOCK_002602_Shijiagiantong",
@@ -13003,6 +12457,12 @@ const directoryData = {
           "displayName": "概述",
           "path": "STOCK_301183_Dongli_Machinery/README.md",
           "size": 1302
+        },
+        {
+          "name": "02_Industry_Analysis.md",
+          "displayName": "02_行业分析",
+          "path": "STOCK_301183_Dongli_Machinery/02_Industry_Analysis.md",
+          "size": 2937
         }
       ]
     },
@@ -13029,6 +12489,12 @@ const directoryData = {
           "displayName": "概述",
           "path": "STOCK_301185_ZKTECO/README.md",
           "size": 1363
+        },
+        {
+          "name": "02_Technology_Analysis.md",
+          "displayName": "02_Technology_Analysis",
+          "path": "STOCK_301185_ZKTECO/02_Technology_Analysis.md",
+          "size": 4663
         }
       ]
     },
@@ -13055,6 +12521,12 @@ const directoryData = {
           "displayName": "概述",
           "path": "STOCK_301180_Mingke_Technology/README.md",
           "size": 1236
+        },
+        {
+          "name": "02_Business_Analysis.md",
+          "displayName": "02_Business_Analysis",
+          "path": "STOCK_301180_Mingke_Technology/02_Business_Analysis.md",
+          "size": 3457
         }
       ]
     },
@@ -13081,6 +12553,12 @@ const directoryData = {
           "displayName": "概述",
           "path": "STOCK_301181_Hongkaida/README.md",
           "size": 1191
+        },
+        {
+          "name": "02_Valuation_Analysis.md",
+          "displayName": "02_Valuation_Analysis",
+          "path": "STOCK_301181_Hongkaida/02_Valuation_Analysis.md",
+          "size": 2535
         }
       ]
     },
@@ -13211,6 +12689,12 @@ const directoryData = {
           "displayName": "概述",
           "path": "STOCK_301176_Hali_Shares/README.md",
           "size": 1000
+        },
+        {
+          "name": "02_Financial_Analysis.md",
+          "displayName": "02_Financial_Analysis",
+          "path": "STOCK_301176_Hali_Shares/02_Financial_Analysis.md",
+          "size": 3897
         }
       ]
     },
@@ -13289,110 +12773,6 @@ const directoryData = {
           "displayName": "概述",
           "path": "STOCK_301169_Dataway/README.md",
           "size": 2690
-        }
-      ]
-    },
-    {
-      "id": "STOCK_301168_Tongling_Electric",
-      "name": "铜陵 (301168)",
-      "folder": "STOCK_301168_Tongling_Electric",
-      "market": "cn",
-      "files": [
-        {
-          "name": "00_Executive_Summary.md",
-          "displayName": "00_执行摘要",
-          "path": "STOCK_301168_Tongling_Electric/00_Executive_Summary.md",
-          "size": 6844
-        },
-        {
-          "name": "Comprehensive_Report.md",
-          "displayName": "Comprehensive_Report",
-          "path": "STOCK_301168_Tongling_Electric/Comprehensive_Report.md",
-          "size": 6960
-        },
-        {
-          "name": "README.md",
-          "displayName": "概述",
-          "path": "STOCK_301168_Tongling_Electric/README.md",
-          "size": 2676
-        }
-      ]
-    },
-    {
-      "id": "STOCK_301111_Yue_Wanqing",
-      "name": "月婉清 (301111)",
-      "folder": "STOCK_301111_Yue_Wanqing",
-      "market": "cn",
-      "files": [
-        {
-          "name": "00_Executive_Summary.md",
-          "displayName": "00_执行摘要",
-          "path": "STOCK_301111_Yue_Wanqing/00_Executive_Summary.md",
-          "size": 3909
-        },
-        {
-          "name": "Comprehensive_Report.md",
-          "displayName": "Comprehensive_Report",
-          "path": "STOCK_301111_Yue_Wanqing/Comprehensive_Report.md",
-          "size": 3970
-        },
-        {
-          "name": "README.md",
-          "displayName": "概述",
-          "path": "STOCK_301111_Yue_Wanqing/README.md",
-          "size": 2424
-        }
-      ]
-    },
-    {
-      "id": "STOCK_301036_Shangle_Pigment",
-      "name": "山乐 (301036)",
-      "folder": "STOCK_301036_Shangle_Pigment",
-      "market": "cn",
-      "files": [
-        {
-          "name": "00_Executive_Summary.md",
-          "displayName": "00_执行摘要",
-          "path": "STOCK_301036_Shangle_Pigment/00_Executive_Summary.md",
-          "size": 6071
-        },
-        {
-          "name": "Comprehensive_Report.md",
-          "displayName": "Comprehensive_Report",
-          "path": "STOCK_301036_Shangle_Pigment/Comprehensive_Report.md",
-          "size": 3803
-        },
-        {
-          "name": "README.md",
-          "displayName": "概述",
-          "path": "STOCK_301036_Shangle_Pigment/README.md",
-          "size": 3270
-        }
-      ]
-    },
-    {
-      "id": "STOCK_301028_Dong_Asia_Machinery",
-      "name": "东亚 (301028)",
-      "folder": "STOCK_301028_Dong_Asia_Machinery",
-      "market": "cn",
-      "files": [
-        {
-          "name": "00_Executive_Summary.md",
-          "displayName": "00_执行摘要",
-          "path": "STOCK_301028_Dong_Asia_Machinery/00_Executive_Summary.md",
-          "size": 6463
-        },
-        {
-          "name": "Comprehensive_Report.md",
-          "displayName": "Comprehensive_Report",
-          "path": "STOCK_301028_Dong_Asia_Machinery/Comprehensive_Report.md",
-          "size": 4062
-        },
-        {
-          "name": "README.md",
-          "displayName": "概述",
-          "path": "STOCK_301028_Dong_Asia_Machinery/README.md",
-          "size": 5224
         }
       ]
     },
@@ -13741,6 +13121,12 @@ const directoryData = {
           "displayName": "概述",
           "path": "STOCK_301202_Langwei/README.md",
           "size": 1184
+        },
+        {
+          "name": "README_2026.md",
+          "displayName": "README_2026",
+          "path": "STOCK_301202_Langwei/README_2026.md",
+          "size": 5351
         }
       ]
     },
@@ -14239,266 +13625,6 @@ const directoryData = {
       ]
     },
     {
-      "id": "STOCK_688297_中无人机",
-      "name": "中无人机 (688297)",
-      "folder": "STOCK_688297_中无人机",
-      "market": "cn",
-      "files": [
-        {
-          "name": "00_Executive_Summary.md",
-          "displayName": "00_执行摘要",
-          "path": "STOCK_688297_中无人机/00_Executive_Summary.md",
-          "size": 1548
-        },
-        {
-          "name": "Comprehensive_Report.md",
-          "displayName": "Comprehensive_Report",
-          "path": "STOCK_688297_中无人机/Comprehensive_Report.md",
-          "size": 6895
-        },
-        {
-          "name": "README.md",
-          "displayName": "概述",
-          "path": "STOCK_688297_中无人机/README.md",
-          "size": 1060
-        }
-      ]
-    },
-    {
-      "id": "STOCK_688303_大全能源",
-      "name": "大全能源 (688303)",
-      "folder": "STOCK_688303_大全能源",
-      "market": "cn",
-      "files": [
-        {
-          "name": "00_Executive_Summary.md",
-          "displayName": "00_执行摘要",
-          "path": "STOCK_688303_大全能源/00_Executive_Summary.md",
-          "size": 1565
-        },
-        {
-          "name": "Comprehensive_Report.md",
-          "displayName": "Comprehensive_Report",
-          "path": "STOCK_688303_大全能源/Comprehensive_Report.md",
-          "size": 6940
-        },
-        {
-          "name": "README.md",
-          "displayName": "概述",
-          "path": "STOCK_688303_大全能源/README.md",
-          "size": 1073
-        }
-      ]
-    },
-    {
-      "id": "STOCK_688375_国博电子",
-      "name": "国博电子 (688375)",
-      "folder": "STOCK_688375_国博电子",
-      "market": "cn",
-      "files": [
-        {
-          "name": "00_Executive_Summary.md",
-          "displayName": "00_执行摘要",
-          "path": "STOCK_688375_国博电子/00_Executive_Summary.md",
-          "size": 1553
-        },
-        {
-          "name": "Comprehensive_Report.md",
-          "displayName": "Comprehensive_Report",
-          "path": "STOCK_688375_国博电子/Comprehensive_Report.md",
-          "size": 6934
-        },
-        {
-          "name": "README.md",
-          "displayName": "概述",
-          "path": "STOCK_688375_国博电子/README.md",
-          "size": 1040
-        }
-      ]
-    },
-    {
-      "id": "STOCK_688396_萤石网络",
-      "name": "萤石网络 (688396)",
-      "folder": "STOCK_688396_萤石网络",
-      "market": "cn",
-      "files": [
-        {
-          "name": "00_Executive_Summary.md",
-          "displayName": "00_执行摘要",
-          "path": "STOCK_688396_萤石网络/00_Executive_Summary.md",
-          "size": 1567
-        },
-        {
-          "name": "Comprehensive_Report.md",
-          "displayName": "Comprehensive_Report",
-          "path": "STOCK_688396_萤石网络/Comprehensive_Report.md",
-          "size": 6977
-        },
-        {
-          "name": "README.md",
-          "displayName": "概述",
-          "path": "STOCK_688396_萤石网络/README.md",
-          "size": 1059
-        }
-      ]
-    },
-    {
-      "id": "STOCK_688469_芯联集成",
-      "name": "芯联集成 (688469)",
-      "folder": "STOCK_688469_芯联集成",
-      "market": "cn",
-      "files": [
-        {
-          "name": "00_Executive_Summary.md",
-          "displayName": "00_执行摘要",
-          "path": "STOCK_688469_芯联集成/00_Executive_Summary.md",
-          "size": 1579
-        },
-        {
-          "name": "Comprehensive_Report.md",
-          "displayName": "Comprehensive_Report",
-          "path": "STOCK_688469_芯联集成/Comprehensive_Report.md",
-          "size": 6971
-        },
-        {
-          "name": "README.md",
-          "displayName": "概述",
-          "path": "STOCK_688469_芯联集成/README.md",
-          "size": 1062
-        }
-      ]
-    },
-    {
-      "id": "STOCK_688472_中科蓝讯",
-      "name": "中科蓝讯 (688472)",
-      "folder": "STOCK_688472_中科蓝讯",
-      "market": "cn",
-      "files": [
-        {
-          "name": "00_Executive_Summary.md",
-          "displayName": "00_执行摘要",
-          "path": "STOCK_688472_中科蓝讯/00_Executive_Summary.md",
-          "size": 1560
-        },
-        {
-          "name": "Comprehensive_Report.md",
-          "displayName": "Comprehensive_Report",
-          "path": "STOCK_688472_中科蓝讯/Comprehensive_Report.md",
-          "size": 6946
-        },
-        {
-          "name": "README.md",
-          "displayName": "概述",
-          "path": "STOCK_688472_中科蓝讯/README.md",
-          "size": 1035
-        }
-      ]
-    },
-    {
-      "id": "STOCK_688475_港通医疗",
-      "name": "港通医疗 (688475)",
-      "folder": "STOCK_688475_港通医疗",
-      "market": "cn",
-      "files": [
-        {
-          "name": "00_Executive_Summary.md",
-          "displayName": "00_执行摘要",
-          "path": "STOCK_688475_港通医疗/00_Executive_Summary.md",
-          "size": 1605
-        },
-        {
-          "name": "Comprehensive_Report.md",
-          "displayName": "Comprehensive_Report",
-          "path": "STOCK_688475_港通医疗/Comprehensive_Report.md",
-          "size": 7037
-        },
-        {
-          "name": "README.md",
-          "displayName": "概述",
-          "path": "STOCK_688475_港通医疗/README.md",
-          "size": 1065
-        }
-      ]
-    },
-    {
-      "id": "STOCK_688506_百利天恒",
-      "name": "百利天恒 (688506)",
-      "folder": "STOCK_688506_百利天恒",
-      "market": "cn",
-      "files": [
-        {
-          "name": "00_Executive_Summary.md",
-          "displayName": "00_执行摘要",
-          "path": "STOCK_688506_百利天恒/00_Executive_Summary.md",
-          "size": 1538
-        },
-        {
-          "name": "Comprehensive_Report.md",
-          "displayName": "Comprehensive_Report",
-          "path": "STOCK_688506_百利天恒/Comprehensive_Report.md",
-          "size": 6914
-        },
-        {
-          "name": "README.md",
-          "displayName": "概述",
-          "path": "STOCK_688506_百利天恒/README.md",
-          "size": 1059
-        }
-      ]
-    },
-    {
-      "id": "STOCK_688521_唯捷创芯",
-      "name": "唯捷创芯 (688521)",
-      "folder": "STOCK_688521_唯捷创芯",
-      "market": "cn",
-      "files": [
-        {
-          "name": "00_Executive_Summary.md",
-          "displayName": "00_执行摘要",
-          "path": "STOCK_688521_唯捷创芯/00_Executive_Summary.md",
-          "size": 1535
-        },
-        {
-          "name": "Comprehensive_Report.md",
-          "displayName": "Comprehensive_Report",
-          "path": "STOCK_688521_唯捷创芯/Comprehensive_Report.md",
-          "size": 6883
-        },
-        {
-          "name": "README.md",
-          "displayName": "概述",
-          "path": "STOCK_688521_唯捷创芯/README.md",
-          "size": 1038
-        }
-      ]
-    },
-    {
-      "id": "STOCK_300821_DONGYUE",
-      "name": "东岳 (300821)",
-      "folder": "STOCK_300821_DONGYUE",
-      "market": "cn",
-      "files": [
-        {
-          "name": "00_Executive_Summary.md",
-          "displayName": "00_执行摘要",
-          "path": "STOCK_300821_DONGYUE/00_Executive_Summary.md",
-          "size": 4567
-        },
-        {
-          "name": "Comprehensive_Report.md",
-          "displayName": "Comprehensive_Report",
-          "path": "STOCK_300821_DONGYUE/Comprehensive_Report.md",
-          "size": 9391
-        },
-        {
-          "name": "README.md",
-          "displayName": "概述",
-          "path": "STOCK_300821_DONGYUE/README.md",
-          "size": 2017
-        }
-      ]
-    },
-    {
       "id": "STOCK_300821_Sinocare",
       "name": "三诺 (300821)",
       "folder": "STOCK_300821_Sinocare",
@@ -14603,32 +13729,6 @@ const directoryData = {
       ]
     },
     {
-      "id": "STOCK_300955_JIAHENJIAHUA",
-      "name": "家享家华 (300955)",
-      "folder": "STOCK_300955_JIAHENJIAHUA",
-      "market": "cn",
-      "files": [
-        {
-          "name": "00_Executive_Summary.md",
-          "displayName": "00_执行摘要",
-          "path": "STOCK_300955_JIAHENJIAHUA/00_Executive_Summary.md",
-          "size": 5882
-        },
-        {
-          "name": "Comprehensive_Report.md",
-          "displayName": "Comprehensive_Report",
-          "path": "STOCK_300955_JIAHENJIAHUA/Comprehensive_Report.md",
-          "size": 11969
-        },
-        {
-          "name": "README.md",
-          "displayName": "概述",
-          "path": "STOCK_300955_JIAHENJIAHUA/README.md",
-          "size": 2177
-        }
-      ]
-    },
-    {
       "id": "STOCK_688480_SAIENS",
       "name": "赛恩斯 (688480)",
       "folder": "STOCK_688480_SAIENS",
@@ -14651,6 +13751,400 @@ const directoryData = {
           "displayName": "概述",
           "path": "STOCK_688480_SAIENS/README.md",
           "size": 2740
+        }
+      ]
+    },
+    {
+      "id": "STOCK_300054_Dinglong",
+      "name": "STOCK_300054_Dinglong",
+      "folder": "STOCK_300054_Dinglong",
+      "market": "cn",
+      "files": [
+        {
+          "name": "00_Executive_Summary.md",
+          "displayName": "00_执行摘要",
+          "path": "STOCK_300054_Dinglong/00_Executive_Summary.md",
+          "size": 6080
+        },
+        {
+          "name": "README.md",
+          "displayName": "概述",
+          "path": "STOCK_300054_Dinglong/README.md",
+          "size": 7839
+        },
+        {
+          "name": "research_log.md",
+          "displayName": "research_log",
+          "path": "STOCK_300054_Dinglong/sources/research_log.md",
+          "size": 3124
+        }
+      ]
+    },
+    {
+      "id": "STOCK_300699_Guangwei",
+      "name": "STOCK_300699_Guangwei",
+      "folder": "STOCK_300699_Guangwei",
+      "market": "cn",
+      "files": [
+        {
+          "name": "README.md",
+          "displayName": "概述",
+          "path": "STOCK_300699_Guangwei/README.md",
+          "size": 4664
+        }
+      ]
+    },
+    {
+      "id": "STOCK_603045_Fuda",
+      "name": "STOCK_603045_Fuda",
+      "folder": "STOCK_603045_Fuda",
+      "market": "cn",
+      "files": [
+        {
+          "name": "README.md",
+          "displayName": "概述",
+          "path": "STOCK_603045_Fuda/README.md",
+          "size": 5361
+        }
+      ]
+    },
+    {
+      "id": "STOCK_002706_Liangxin",
+      "name": "STOCK_002706_Liangxin",
+      "folder": "STOCK_002706_Liangxin",
+      "market": "cn",
+      "files": [
+        {
+          "name": "README.md",
+          "displayName": "概述",
+          "path": "STOCK_002706_Liangxin/README.md",
+          "size": 4626
+        }
+      ]
+    },
+    {
+      "id": "STOCK_300470_Sunvall",
+      "name": "STOCK_300470_Sunvall",
+      "folder": "STOCK_300470_Sunvall",
+      "market": "cn",
+      "files": [
+        {
+          "name": "README.md",
+          "displayName": "概述",
+          "path": "STOCK_300470_Sunvall/README.md",
+          "size": 4684
+        }
+      ]
+    },
+    {
+      "id": "STOCK_002384_Dongshan",
+      "name": "STOCK_002384_Dongshan",
+      "folder": "STOCK_002384_Dongshan",
+      "market": "cn",
+      "files": [
+        {
+          "name": "README.md",
+          "displayName": "概述",
+          "path": "STOCK_002384_Dongshan/README.md",
+          "size": 3572
+        }
+      ]
+    },
+    {
+      "id": "STOCK_002540_Yatai",
+      "name": "STOCK_002540_Yatai",
+      "folder": "STOCK_002540_Yatai",
+      "market": "cn",
+      "files": [
+        {
+          "name": "README.md",
+          "displayName": "概述",
+          "path": "STOCK_002540_Yatai/README.md",
+          "size": 4415
+        }
+      ]
+    },
+    {
+      "id": "STOCK_300786_YOFC",
+      "name": "STOCK_300786_YOFC",
+      "folder": "STOCK_300786_YOFC",
+      "market": "cn",
+      "files": [
+        {
+          "name": "README.md",
+          "displayName": "概述",
+          "path": "STOCK_300786_YOFC/README.md",
+          "size": 3215
+        }
+      ]
+    },
+    {
+      "id": "STOCK_688169_Roborock",
+      "name": "石头科技 (688169)",
+      "folder": "STOCK_688169_Roborock",
+      "market": "cn",
+      "files": [
+        {
+          "name": "README.md",
+          "displayName": "概述",
+          "path": "STOCK_688169_Roborock/README.md",
+          "size": 14314
+        }
+      ]
+    },
+    {
+      "id": "STOCK_688036_Transsion",
+      "name": "传音 (688036)",
+      "folder": "STOCK_688036_Transsion",
+      "market": "cn",
+      "files": [
+        {
+          "name": "README.md",
+          "displayName": "概述",
+          "path": "STOCK_688036_Transsion/README.md",
+          "size": 1523
+        }
+      ]
+    },
+    {
+      "id": "STOCK_300634_Richinfo",
+      "name": "STOCK_300634_Richinfo",
+      "folder": "STOCK_300634_Richinfo",
+      "market": "cn",
+      "files": [
+        {
+          "name": "README.md",
+          "displayName": "概述",
+          "path": "STOCK_300634_Richinfo/README.md",
+          "size": 6598
+        }
+      ]
+    },
+    {
+      "id": "STOCK_000035_ChinaTianying",
+      "name": "STOCK_000035_ChinaTianying",
+      "folder": "STOCK_000035_ChinaTianying",
+      "market": "cn",
+      "files": [
+        {
+          "name": "README.md",
+          "displayName": "概述",
+          "path": "STOCK_000035_ChinaTianying/README.md",
+          "size": 5287
+        }
+      ]
+    },
+    {
+      "id": "STOCK_PHH_Parkha",
+      "name": "STOCK_PHH_Parkha",
+      "folder": "STOCK_PHH_Parkha",
+      "market": "us",
+      "files": [
+        {
+          "name": "README.md",
+          "displayName": "概述",
+          "path": "STOCK_PHH_Parkha/README.md",
+          "size": 5334
+        }
+      ]
+    },
+    {
+      "id": "STOCK_300598_Chengmai",
+      "name": "STOCK_300598_Chengmai",
+      "folder": "STOCK_300598_Chengmai",
+      "market": "cn",
+      "files": [
+        {
+          "name": "README.md",
+          "displayName": "概述",
+          "path": "STOCK_300598_Chengmai/README.md",
+          "size": 4009
+        }
+      ]
+    },
+    {
+      "id": "STOCK_300888_WinnerMedical",
+      "name": "STOCK_300888_WinnerMedical",
+      "folder": "STOCK_300888_WinnerMedical",
+      "market": "cn",
+      "files": [
+        {
+          "name": "00_Executive_Summary.md",
+          "displayName": "00_执行摘要",
+          "path": "STOCK_300888_WinnerMedical/00_Executive_Summary.md",
+          "size": 4383
+        },
+        {
+          "name": "README.md",
+          "displayName": "概述",
+          "path": "STOCK_300888_WinnerMedical/README.md",
+          "size": 7286
+        }
+      ]
+    },
+    {
+      "id": "STOCK_300821_Sanuocare",
+      "name": "STOCK_300821_Sanuocare",
+      "folder": "STOCK_300821_Sanuocare",
+      "market": "cn",
+      "files": [
+        {
+          "name": "README_2026.md",
+          "displayName": "README_2026",
+          "path": "STOCK_300821_Sanuocare/README_2026.md",
+          "size": 6392
+        }
+      ]
+    },
+    {
+      "id": "STOCK_300782_YOFC",
+      "name": "长飞光纤 (300782)",
+      "folder": "STOCK_300782_YOFC",
+      "market": "cn",
+      "files": [
+        {
+          "name": "00_Executive_Summary.md",
+          "displayName": "00_执行摘要",
+          "path": "STOCK_300782_YOFC/00_Executive_Summary.md",
+          "size": 217
+        },
+        {
+          "name": "README_2026.md",
+          "displayName": "README_2026",
+          "path": "STOCK_300782_YOFC/README_2026.md",
+          "size": 5515
+        }
+      ]
+    },
+    {
+      "id": "STOCK_300777_FULLHAN",
+      "name": "中科海讯 (300777)",
+      "folder": "STOCK_300777_FULLHAN",
+      "market": "cn",
+      "files": [
+        {
+          "name": "00_Executive_Summary.md",
+          "displayName": "00_执行摘要",
+          "path": "STOCK_300777_FULLHAN/00_Executive_Summary.md",
+          "size": 413
+        },
+        {
+          "name": "README_2026.md",
+          "displayName": "README_2026",
+          "path": "STOCK_300777_FULLHAN/README_2026.md",
+          "size": 7231
+        }
+      ]
+    },
+    {
+      "id": "STOCK_300819_Jujie",
+      "name": "STOCK_300819_Jujie",
+      "folder": "STOCK_300819_Jujie",
+      "market": "cn",
+      "files": [
+        {
+          "name": "README_2026.md",
+          "displayName": "README_2026",
+          "path": "STOCK_300819_Jujie/README_2026.md",
+          "size": 6086
+        }
+      ]
+    },
+    {
+      "id": "STOCK_688038_Zhongke_Tongda",
+      "name": "STOCK_688038_Zhongke_Tongda",
+      "folder": "STOCK_688038_Zhongke_Tongda",
+      "market": "cn",
+      "files": [
+        {
+          "name": "README_2026.md",
+          "displayName": "README_2026",
+          "path": "STOCK_688038_Zhongke_Tongda/README_2026.md",
+          "size": 6408
+        }
+      ]
+    },
+    {
+      "id": "STOCK_688211_Zhongke",
+      "name": "STOCK_688211_Zhongke",
+      "folder": "STOCK_688211_Zhongke",
+      "market": "cn",
+      "files": [
+        {
+          "name": "README_2026.md",
+          "displayName": "README_2026",
+          "path": "STOCK_688211_Zhongke/README_2026.md",
+          "size": 5619
+        }
+      ]
+    },
+    {
+      "id": "STOCK_301205_Liant",
+      "name": "STOCK_301205_Liant",
+      "folder": "STOCK_301205_Liant",
+      "market": "cn",
+      "files": [
+        {
+          "name": "README_2026.md",
+          "displayName": "README_2026",
+          "path": "STOCK_301205_Liant/README_2026.md",
+          "size": 6868
+        }
+      ]
+    },
+    {
+      "id": "STOCK_301206_Sanyuan",
+      "name": "STOCK_301206_Sanyuan",
+      "folder": "STOCK_301206_Sanyuan",
+      "market": "cn",
+      "files": [
+        {
+          "name": "README_2026.md",
+          "displayName": "README_2026",
+          "path": "STOCK_301206_Sanyuan/README_2026.md",
+          "size": 6007
+        }
+      ]
+    },
+    {
+      "id": "STOCK_ZTO_ZTOExpress",
+      "name": "STOCK_ZTO_ZTOExpress",
+      "folder": "STOCK_ZTO_ZTOExpress",
+      "market": "us",
+      "files": [
+        {
+          "name": "README.md",
+          "displayName": "概述",
+          "path": "STOCK_ZTO_ZTOExpress/README.md",
+          "size": 5426
+        }
+      ]
+    },
+    {
+      "id": "STOCK_TUYA_TuyaSmart",
+      "name": "STOCK_TUYA_TuyaSmart",
+      "folder": "STOCK_TUYA_TuyaSmart",
+      "market": "us",
+      "files": [
+        {
+          "name": "README.md",
+          "displayName": "概述",
+          "path": "STOCK_TUYA_TuyaSmart/README.md",
+          "size": 5200
+        }
+      ]
+    },
+    {
+      "id": "STOCK_QFIN_360Digital",
+      "name": "STOCK_QFIN_360Digital",
+      "folder": "STOCK_QFIN_360Digital",
+      "market": "us",
+      "files": [
+        {
+          "name": "README.md",
+          "displayName": "概述",
+          "path": "STOCK_QFIN_360Digital/README.md",
+          "size": 3711
         }
       ]
     }
@@ -16596,6 +16090,36 @@ const directoryData = {
       "type": "file",
       "path": "STOCK_BEDU_BrightScholar/README.md"
     },
+    "STOCK_BEDU_BrightScholar/00_Executive_Summary.md": {
+      "name": "00_Executive_Summary.md",
+      "type": "file",
+      "path": "STOCK_BEDU_BrightScholar/00_Executive_Summary.md"
+    },
+    "STOCK_BEDU_BrightScholar/01_Company_History.md": {
+      "name": "01_Company_History.md",
+      "type": "file",
+      "path": "STOCK_BEDU_BrightScholar/01_Company_History.md"
+    },
+    "STOCK_BEDU_BrightScholar/02_Delisting_Analysis.md": {
+      "name": "02_Delisting_Analysis.md",
+      "type": "file",
+      "path": "STOCK_BEDU_BrightScholar/02_Delisting_Analysis.md"
+    },
+    "STOCK_BEDU_BrightScholar/03_Financial_History.md": {
+      "name": "03_Financial_History.md",
+      "type": "file",
+      "path": "STOCK_BEDU_BrightScholar/03_Financial_History.md"
+    },
+    "STOCK_BEDU_BrightScholar/04_Business_Analysis.md": {
+      "name": "04_Business_Analysis.md",
+      "type": "file",
+      "path": "STOCK_BEDU_BrightScholar/04_Business_Analysis.md"
+    },
+    "STOCK_BEDU_BrightScholar/sources/research_log.md": {
+      "name": "research_log.md",
+      "type": "file",
+      "path": "STOCK_BEDU_BrightScholar/sources/research_log.md"
+    },
     "STOCK_COE_51Talk/README.md": {
       "name": "README.md",
       "type": "file",
@@ -16605,6 +16129,31 @@ const directoryData = {
       "name": "README.md",
       "type": "file",
       "path": "STOCK_DL_ChinaDistance/README.md"
+    },
+    "STOCK_DL_ChinaDistance/00_Executive_Summary.md": {
+      "name": "00_Executive_Summary.md",
+      "type": "file",
+      "path": "STOCK_DL_ChinaDistance/00_Executive_Summary.md"
+    },
+    "STOCK_DL_ChinaDistance/01_Company_History.md": {
+      "name": "01_Company_History.md",
+      "type": "file",
+      "path": "STOCK_DL_ChinaDistance/01_Company_History.md"
+    },
+    "STOCK_DL_ChinaDistance/02_Delisting_Analysis.md": {
+      "name": "02_Delisting_Analysis.md",
+      "type": "file",
+      "path": "STOCK_DL_ChinaDistance/02_Delisting_Analysis.md"
+    },
+    "STOCK_DL_ChinaDistance/03_Business_Analysis.md": {
+      "name": "03_Business_Analysis.md",
+      "type": "file",
+      "path": "STOCK_DL_ChinaDistance/03_Business_Analysis.md"
+    },
+    "STOCK_DL_ChinaDistance/sources/research_log.md": {
+      "name": "research_log.md",
+      "type": "file",
+      "path": "STOCK_DL_ChinaDistance/sources/research_log.md"
     },
     "STOCK_NEW_Puxin/README.md": {
       "name": "README.md",
@@ -16616,10 +16165,30 @@ const directoryData = {
       "type": "file",
       "path": "STOCK_ONE_OneSmart/README.md"
     },
+    "STOCK_ONE_OneSmart/00_Executive_Summary.md": {
+      "name": "00_Executive_Summary.md",
+      "type": "file",
+      "path": "STOCK_ONE_OneSmart/00_Executive_Summary.md"
+    },
+    "STOCK_ONE_OneSmart/sources/research_log.md": {
+      "name": "research_log.md",
+      "type": "file",
+      "path": "STOCK_ONE_OneSmart/sources/research_log.md"
+    },
     "STOCK_REDU_Rise/README.md": {
       "name": "README.md",
       "type": "file",
       "path": "STOCK_REDU_Rise/README.md"
+    },
+    "STOCK_REDU_Rise/00_Executive_Summary.md": {
+      "name": "00_Executive_Summary.md",
+      "type": "file",
+      "path": "STOCK_REDU_Rise/00_Executive_Summary.md"
+    },
+    "STOCK_REDU_Rise/sources/research_log.md": {
+      "name": "research_log.md",
+      "type": "file",
+      "path": "STOCK_REDU_Rise/sources/research_log.md"
     },
     "STOCK_SJ_Shanbay/README.md": {
       "name": "README.md",
@@ -16646,6 +16215,11 @@ const directoryData = {
       "type": "file",
       "path": "STOCK_GHG_GreenTree/README.md"
     },
+    "STOCK_GHG_GreenTree/01_Financial_Data.md": {
+      "name": "01_Financial_Data.md",
+      "type": "file",
+      "path": "STOCK_GHG_GreenTree/01_Financial_Data.md"
+    },
     "STOCK_CIC_BlueCity/README.md": {
       "name": "README.md",
       "type": "file",
@@ -16656,20 +16230,35 @@ const directoryData = {
       "type": "file",
       "path": "STOCK_AMBO_Ambow/README.md"
     },
+    "STOCK_AMBO_Ambow/00_Executive_Summary.md": {
+      "name": "00_Executive_Summary.md",
+      "type": "file",
+      "path": "STOCK_AMBO_Ambow/00_Executive_Summary.md"
+    },
+    "STOCK_AMBO_Ambow/sources/research_log.md": {
+      "name": "research_log.md",
+      "type": "file",
+      "path": "STOCK_AMBO_Ambow/sources/research_log.md"
+    },
     "STOCK_JOYY_Joyy/README.md": {
       "name": "README.md",
       "type": "file",
       "path": "STOCK_JOYY_Joyy/README.md"
     },
+    "STOCK_JOYY_Joyy/00_Executive_Summary.md": {
+      "name": "00_Executive_Summary.md",
+      "type": "file",
+      "path": "STOCK_JOYY_Joyy/00_Executive_Summary.md"
+    },
+    "STOCK_JOYY_Joyy/sources/research_log.md": {
+      "name": "research_log.md",
+      "type": "file",
+      "path": "STOCK_JOYY_Joyy/sources/research_log.md"
+    },
     "STOCK_EDU_NewOriental/README.md": {
       "name": "README.md",
       "type": "file",
       "path": "STOCK_EDU_NewOriental/README.md"
-    },
-    "STOCK_689009_Ninebot/README.md": {
-      "name": "README.md",
-      "type": "file",
-      "path": "STOCK_689009_Ninebot/README.md"
     },
     "STOCK_POZH_Parkha/README.md": {
       "name": "README.md",
@@ -16686,10 +16275,20 @@ const directoryData = {
       "type": "file",
       "path": "STOCK_DDL_Dingdong/README.md"
     },
+    "STOCK_DDL_Dingdong/02_Business_Analysis.md": {
+      "name": "02_Business_Analysis.md",
+      "type": "file",
+      "path": "STOCK_DDL_Dingdong/02_Business_Analysis.md"
+    },
     "STOCK_RLX_Relonx/README.md": {
       "name": "README.md",
       "type": "file",
       "path": "STOCK_RLX_Relonx/README.md"
+    },
+    "STOCK_RLX_Relonx/02_Industry_Analysis.md": {
+      "name": "02_Industry_Analysis.md",
+      "type": "file",
+      "path": "STOCK_RLX_Relonx/02_Industry_Analysis.md"
     },
     "STOCK_IQ_iQIYI/README.md": {
       "name": "README.md",
@@ -16701,15 +16300,30 @@ const directoryData = {
       "type": "file",
       "path": "STOCK_TUYA_Tuya/README.md"
     },
+    "STOCK_TUYA_Tuya/02_Technology_Analysis.md": {
+      "name": "02_Technology_Analysis.md",
+      "type": "file",
+      "path": "STOCK_TUYA_Tuya/02_Technology_Analysis.md"
+    },
     "STOCK_LU_Lufax/README.md": {
       "name": "README.md",
       "type": "file",
       "path": "STOCK_LU_Lufax/README.md"
     },
+    "STOCK_LU_Lufax/02_Business_Transformation.md": {
+      "name": "02_Business_Transformation.md",
+      "type": "file",
+      "path": "STOCK_LU_Lufax/02_Business_Transformation.md"
+    },
     "STOCK_HUYA_Huya/README.md": {
       "name": "README.md",
       "type": "file",
       "path": "STOCK_HUYA_Huya/README.md"
+    },
+    "STOCK_HUYA_Huya/02_Competitive_Analysis.md": {
+      "name": "02_Competitive_Analysis.md",
+      "type": "file",
+      "path": "STOCK_HUYA_Huya/02_Competitive_Analysis.md"
     },
     "STOCK_GOTU_Gaosu/README.md": {
       "name": "README.md",
@@ -16721,25 +16335,50 @@ const directoryData = {
       "type": "file",
       "path": "STOCK_API_Agora/README.md"
     },
+    "STOCK_API_Agora/README_2026.md": {
+      "name": "README_2026.md",
+      "type": "file",
+      "path": "STOCK_API_Agora/README_2026.md"
+    },
     "STOCK_QD_Qudian/README.md": {
       "name": "README.md",
       "type": "file",
       "path": "STOCK_QD_Qudian/README.md"
+    },
+    "STOCK_QD_Qudian/02_Financial_Analysis.md": {
+      "name": "02_Financial_Analysis.md",
+      "type": "file",
+      "path": "STOCK_QD_Qudian/02_Financial_Analysis.md"
     },
     "STOCK_RERE_Ataike/README.md": {
       "name": "README.md",
       "type": "file",
       "path": "STOCK_RERE_Ataike/README.md"
     },
+    "STOCK_RERE_Ataike/02_Financial_Analysis.md": {
+      "name": "02_Financial_Analysis.md",
+      "type": "file",
+      "path": "STOCK_RERE_Ataike/02_Financial_Analysis.md"
+    },
     "STOCK_NIU_Niu/README.md": {
       "name": "README.md",
       "type": "file",
       "path": "STOCK_NIU_Niu/README.md"
     },
+    "STOCK_NIU_Niu/README_2026.md": {
+      "name": "README_2026.md",
+      "type": "file",
+      "path": "STOCK_NIU_Niu/README_2026.md"
+    },
     "STOCK_BZUN_Baozun/README.md": {
       "name": "README.md",
       "type": "file",
       "path": "STOCK_BZUN_Baozun/README.md"
+    },
+    "STOCK_BZUN_Baozun/02_Business_Analysis.md": {
+      "name": "02_Business_Analysis.md",
+      "type": "file",
+      "path": "STOCK_BZUN_Baozun/02_Business_Analysis.md"
     },
     "STOCK_CANG_CanGo/README.md": {
       "name": "README.md",
@@ -16791,10 +16430,20 @@ const directoryData = {
       "type": "file",
       "path": "STOCK_JFIN_Jiayin/README.md"
     },
+    "STOCK_JFIN_Jiayin/README_2026.md": {
+      "name": "README_2026.md",
+      "type": "file",
+      "path": "STOCK_JFIN_Jiayin/README_2026.md"
+    },
     "STOCK_CSIQ_CanadianSolar/README.md": {
       "name": "README.md",
       "type": "file",
       "path": "STOCK_CSIQ_CanadianSolar/README.md"
+    },
+    "STOCK_CSIQ_CanadianSolar/README_2026.md": {
+      "name": "README_2026.md",
+      "type": "file",
+      "path": "STOCK_CSIQ_CanadianSolar/README_2026.md"
     },
     "STOCK_EH_EHang/00_Executive_Summary.md": {
       "name": "00_Executive_Summary.md",
@@ -17125,6 +16774,11 @@ const directoryData = {
       "name": "00_Executive_Summary.md",
       "type": "file",
       "path": "STOCK_TIGR_Tiger_Brokers/00_Executive_Summary.md"
+    },
+    "STOCK_TIGR_Tiger_Brokers/README.md": {
+      "name": "README.md",
+      "type": "file",
+      "path": "STOCK_TIGR_Tiger_Brokers/README.md"
     },
     "STOCK_VNET_21Vianet/00_Executive_Summary.md": {
       "name": "00_Executive_Summary.md",
@@ -19396,96 +19050,6 @@ const directoryData = {
       "type": "file",
       "path": "STOCK_300124_Inovance/README.md"
     },
-    "STOCK_300750_CATL/00_Executive_Summary.md": {
-      "name": "00_Executive_Summary.md",
-      "type": "file",
-      "path": "STOCK_300750_CATL/00_Executive_Summary.md"
-    },
-    "STOCK_300750_CATL/01_Business_Foundation.md": {
-      "name": "01_Business_Foundation.md",
-      "type": "file",
-      "path": "STOCK_300750_CATL/01_Business_Foundation.md"
-    },
-    "STOCK_300750_CATL/02_Industry_Analysis.md": {
-      "name": "02_Industry_Analysis.md",
-      "type": "file",
-      "path": "STOCK_300750_CATL/02_Industry_Analysis.md"
-    },
-    "STOCK_300750_CATL/03_Business_Breakdown.md": {
-      "name": "03_Business_Breakdown.md",
-      "type": "file",
-      "path": "STOCK_300750_CATL/03_Business_Breakdown.md"
-    },
-    "STOCK_300750_CATL/04_Financial_Quality.md": {
-      "name": "04_Financial_Quality.md",
-      "type": "file",
-      "path": "STOCK_300750_CATL/04_Financial_Quality.md"
-    },
-    "STOCK_300750_CATL/05_Governance_Analysis.md": {
-      "name": "05_Governance_Analysis.md",
-      "type": "file",
-      "path": "STOCK_300750_CATL/05_Governance_Analysis.md"
-    },
-    "STOCK_300750_CATL/06_Market_Sentiment.md": {
-      "name": "06_Market_Sentiment.md",
-      "type": "file",
-      "path": "STOCK_300750_CATL/06_Market_Sentiment.md"
-    },
-    "STOCK_300750_CATL/07_Valuation_Moat.md": {
-      "name": "07_Valuation_Moat.md",
-      "type": "file",
-      "path": "STOCK_300750_CATL/07_Valuation_Moat.md"
-    },
-    "STOCK_300750_CATL/README.md": {
-      "name": "README.md",
-      "type": "file",
-      "path": "STOCK_300750_CATL/README.md"
-    },
-    "STOCK_300059_Eastmoney/00_Executive_Summary.md": {
-      "name": "00_Executive_Summary.md",
-      "type": "file",
-      "path": "STOCK_300059_Eastmoney/00_Executive_Summary.md"
-    },
-    "STOCK_300059_Eastmoney/01_Business_Foundation.md": {
-      "name": "01_Business_Foundation.md",
-      "type": "file",
-      "path": "STOCK_300059_Eastmoney/01_Business_Foundation.md"
-    },
-    "STOCK_300059_Eastmoney/02_Industry_Analysis.md": {
-      "name": "02_Industry_Analysis.md",
-      "type": "file",
-      "path": "STOCK_300059_Eastmoney/02_Industry_Analysis.md"
-    },
-    "STOCK_300059_Eastmoney/03_Business_Breakdown.md": {
-      "name": "03_Business_Breakdown.md",
-      "type": "file",
-      "path": "STOCK_300059_Eastmoney/03_Business_Breakdown.md"
-    },
-    "STOCK_300059_Eastmoney/04_Financial_Quality.md": {
-      "name": "04_Financial_Quality.md",
-      "type": "file",
-      "path": "STOCK_300059_Eastmoney/04_Financial_Quality.md"
-    },
-    "STOCK_300059_Eastmoney/05_Governance_Analysis.md": {
-      "name": "05_Governance_Analysis.md",
-      "type": "file",
-      "path": "STOCK_300059_Eastmoney/05_Governance_Analysis.md"
-    },
-    "STOCK_300059_Eastmoney/06_Market_Sentiment.md": {
-      "name": "06_Market_Sentiment.md",
-      "type": "file",
-      "path": "STOCK_300059_Eastmoney/06_Market_Sentiment.md"
-    },
-    "STOCK_300059_Eastmoney/07_Valuation_Moat.md": {
-      "name": "07_Valuation_Moat.md",
-      "type": "file",
-      "path": "STOCK_300059_Eastmoney/07_Valuation_Moat.md"
-    },
-    "STOCK_300059_Eastmoney/README.md": {
-      "name": "README.md",
-      "type": "file",
-      "path": "STOCK_300059_Eastmoney/README.md"
-    },
     "STOCK_300033_10jqka/00_Executive_Summary.md": {
       "name": "00_Executive_Summary.md",
       "type": "file",
@@ -19601,6 +19165,11 @@ const directoryData = {
       "type": "file",
       "path": "STOCK_300529_Jafron/00_Executive_Summary.md"
     },
+    "STOCK_300529_Jafron/README_2026.md": {
+      "name": "README_2026.md",
+      "type": "file",
+      "path": "STOCK_300529_Jafron/README_2026.md"
+    },
     "STOCK_300003_Lepu/00_Executive_Summary.md": {
       "name": "00_Executive_Summary.md",
       "type": "file",
@@ -19681,26 +19250,6 @@ const directoryData = {
       "type": "file",
       "path": "STOCK_300866_Anker/README.md"
     },
-    "STOCK_300955_Wanhang/00_Executive_Summary.md": {
-      "name": "00_Executive_Summary.md",
-      "type": "file",
-      "path": "STOCK_300955_Wanhang/00_Executive_Summary.md"
-    },
-    "STOCK_300955_Wanhang/Comprehensive_Report.md": {
-      "name": "Comprehensive_Report.md",
-      "type": "file",
-      "path": "STOCK_300955_Wanhang/Comprehensive_Report.md"
-    },
-    "STOCK_300955_Wanhang/README.md": {
-      "name": "README.md",
-      "type": "file",
-      "path": "STOCK_300955_Wanhang/README.md"
-    },
-    "STOCK_300968_Hygon/00_Executive_Summary.md": {
-      "name": "00_Executive_Summary.md",
-      "type": "file",
-      "path": "STOCK_300968_Hygon/00_Executive_Summary.md"
-    },
     "STOCK_300357_YaWo/00_Executive_Summary.md": {
       "name": "00_Executive_Summary.md",
       "type": "file",
@@ -19710,11 +19259,6 @@ const directoryData = {
       "name": "README.md",
       "type": "file",
       "path": "STOCK_300357_YaWo/README.md"
-    },
-    "STOCK_300955_Beta/00_Executive_Summary.md": {
-      "name": "00_Executive_Summary.md",
-      "type": "file",
-      "path": "STOCK_300955_Beta/00_Executive_Summary.md"
     },
     "STOCK_300058_BlueFocus/00_Executive_Summary.md": {
       "name": "00_Executive_Summary.md",
@@ -19771,16 +19315,6 @@ const directoryData = {
       "type": "file",
       "path": "STOCK_300769_Defang/README.md"
     },
-    "STOCK_300496_THUNDERSOFT/00_Executive_Summary.md": {
-      "name": "00_Executive_Summary.md",
-      "type": "file",
-      "path": "STOCK_300496_THUNDERSOFT/00_Executive_Summary.md"
-    },
-    "STOCK_300496_THUNDERSOFT/README.md": {
-      "name": "README.md",
-      "type": "file",
-      "path": "STOCK_300496_THUNDERSOFT/README.md"
-    },
     "STOCK_300502_Xinyisheng/00_Executive_Summary.md": {
       "name": "00_Executive_Summary.md",
       "type": "file",
@@ -19795,16 +19329,6 @@ const directoryData = {
       "name": "00_Executive_Summary.md",
       "type": "file",
       "path": "STOCK_300735_Guanghong/00_Executive_Summary.md"
-    },
-    "STOCK_300724_Jiejiawei/00_Executive_Summary.md": {
-      "name": "00_Executive_Summary.md",
-      "type": "file",
-      "path": "STOCK_300724_Jiejiawei/00_Executive_Summary.md"
-    },
-    "STOCK_300724_Jiejiawei/README.md": {
-      "name": "README.md",
-      "type": "file",
-      "path": "STOCK_300724_Jiejiawei/README.md"
     },
     "STOCK_300604_Changchuan/00_Executive_Summary.md": {
       "name": "00_Executive_Summary.md",
@@ -20536,16 +20060,6 @@ const directoryData = {
       "type": "file",
       "path": "STOCK_300014_EVE/README.md"
     },
-    "STOCK_300002_SZHANYOU/00_Executive_Summary.md": {
-      "name": "00_Executive_Summary.md",
-      "type": "file",
-      "path": "STOCK_300002_SZHANYOU/00_Executive_Summary.md"
-    },
-    "STOCK_300002_SZHANYOU/README.md": {
-      "name": "README.md",
-      "type": "file",
-      "path": "STOCK_300002_SZHANYOU/README.md"
-    },
     "STOCK_300001_TGOOD/00_Executive_Summary.md": {
       "name": "00_Executive_Summary.md",
       "type": "file",
@@ -20596,20 +20110,10 @@ const directoryData = {
       "type": "file",
       "path": "STOCK_301003_ZHONGKE/00_Executive_Summary.md"
     },
-    "STOCK_301011_SANMIN/00_Executive_Summary.md": {
-      "name": "00_Executive_Summary.md",
+    "STOCK_301003_ZHONGKE/02_Business_Analysis.md": {
+      "name": "02_Business_Analysis.md",
       "type": "file",
-      "path": "STOCK_301011_SANMIN/00_Executive_Summary.md"
-    },
-    "STOCK_301011_SANMIN/Comprehensive_Report.md": {
-      "name": "Comprehensive_Report.md",
-      "type": "file",
-      "path": "STOCK_301011_SANMIN/Comprehensive_Report.md"
-    },
-    "STOCK_301011_SANMIN/README.md": {
-      "name": "README.md",
-      "type": "file",
-      "path": "STOCK_301011_SANMIN/README.md"
+      "path": "STOCK_301003_ZHONGKE/02_Business_Analysis.md"
     },
     "STOCK_301028_HONGDU/00_Executive_Summary.md": {
       "name": "00_Executive_Summary.md",
@@ -20671,21 +20175,6 @@ const directoryData = {
       "type": "file",
       "path": "STOCK_301168_JINGWEI/README.md"
     },
-    "STOCK_301188_HANFEI/00_Executive_Summary.md": {
-      "name": "00_Executive_Summary.md",
-      "type": "file",
-      "path": "STOCK_301188_HANFEI/00_Executive_Summary.md"
-    },
-    "STOCK_301188_HANFEI/Comprehensive_Report.md": {
-      "name": "Comprehensive_Report.md",
-      "type": "file",
-      "path": "STOCK_301188_HANFEI/Comprehensive_Report.md"
-    },
-    "STOCK_301188_HANFEI/README.md": {
-      "name": "README.md",
-      "type": "file",
-      "path": "STOCK_301188_HANFEI/README.md"
-    },
     "STOCK_301222_GREE/00_Executive_Summary.md": {
       "name": "00_Executive_Summary.md",
       "type": "file",
@@ -20736,15 +20225,45 @@ const directoryData = {
       "type": "file",
       "path": "STOCK_300947_HENGDA/00_Executive_Summary.md"
     },
+    "STOCK_300947_HENGDA/README.md": {
+      "name": "README.md",
+      "type": "file",
+      "path": "STOCK_300947_HENGDA/README.md"
+    },
     "STOCK_300925_FABEN/00_Executive_Summary.md": {
       "name": "00_Executive_Summary.md",
       "type": "file",
       "path": "STOCK_300925_FABEN/00_Executive_Summary.md"
     },
-    "STOCK_300919_ZHONGKE/00_Executive_Summary.md": {
-      "name": "00_Executive_Summary.md",
+    "STOCK_300925_FABEN/01_Company_Overview.md": {
+      "name": "01_Company_Overview.md",
       "type": "file",
-      "path": "STOCK_300919_ZHONGKE/00_Executive_Summary.md"
+      "path": "STOCK_300925_FABEN/01_Company_Overview.md"
+    },
+    "STOCK_300925_FABEN/02_Financial_Analysis.md": {
+      "name": "02_Financial_Analysis.md",
+      "type": "file",
+      "path": "STOCK_300925_FABEN/02_Financial_Analysis.md"
+    },
+    "STOCK_300925_FABEN/03_Business_Analysis.md": {
+      "name": "03_Business_Analysis.md",
+      "type": "file",
+      "path": "STOCK_300925_FABEN/03_Business_Analysis.md"
+    },
+    "STOCK_300925_FABEN/04_Risk_Analysis.md": {
+      "name": "04_Risk_Analysis.md",
+      "type": "file",
+      "path": "STOCK_300925_FABEN/04_Risk_Analysis.md"
+    },
+    "STOCK_300925_FABEN/README.md": {
+      "name": "README.md",
+      "type": "file",
+      "path": "STOCK_300925_FABEN/README.md"
+    },
+    "STOCK_300925_FABEN/sources/research_log.md": {
+      "name": "research_log.md",
+      "type": "file",
+      "path": "STOCK_300925_FABEN/sources/research_log.md"
     },
     "STOCK_300932_BOCHUANG/00_Executive_Summary.md": {
       "name": "00_Executive_Summary.md",
@@ -20836,46 +20355,6 @@ const directoryData = {
       "type": "file",
       "path": "STOCK_300968_HAIGUANG/README.md"
     },
-    "STOCK_300905_BAOCHENG/00_Executive_Summary.md": {
-      "name": "00_Executive_Summary.md",
-      "type": "file",
-      "path": "STOCK_300905_BAOCHENG/00_Executive_Summary.md"
-    },
-    "STOCK_300896_HITHINK/00_Executive_Summary.md": {
-      "name": "00_Executive_Summary.md",
-      "type": "file",
-      "path": "STOCK_300896_HITHINK/00_Executive_Summary.md"
-    },
-    "STOCK_300888_CHINASOFT/00_Executive_Summary.md": {
-      "name": "00_Executive_Summary.md",
-      "type": "file",
-      "path": "STOCK_300888_CHINASOFT/00_Executive_Summary.md"
-    },
-    "STOCK_300866_ACHEN/00_Executive_Summary.md": {
-      "name": "00_Executive_Summary.md",
-      "type": "file",
-      "path": "STOCK_300866_ACHEN/00_Executive_Summary.md"
-    },
-    "STOCK_300821_SANUO/00_Executive_Summary.md": {
-      "name": "00_Executive_Summary.md",
-      "type": "file",
-      "path": "STOCK_300821_SANUO/00_Executive_Summary.md"
-    },
-    "STOCK_300782_YOFC/00_Executive_Summary.md": {
-      "name": "00_Executive_Summary.md",
-      "type": "file",
-      "path": "STOCK_300782_YOFC/00_Executive_Summary.md"
-    },
-    "STOCK_300777_FULLHAN/00_Executive_Summary.md": {
-      "name": "00_Executive_Summary.md",
-      "type": "file",
-      "path": "STOCK_300777_FULLHAN/00_Executive_Summary.md"
-    },
-    "STOCK_300766_DAILY/00_Executive_Summary.md": {
-      "name": "00_Executive_Summary.md",
-      "type": "file",
-      "path": "STOCK_300766_DAILY/00_Executive_Summary.md"
-    },
     "STOCK_300454_SANGFOR/00_Executive_Summary.md": {
       "name": "00_Executive_Summary.md",
       "type": "file",
@@ -20885,16 +20364,6 @@ const directoryData = {
       "name": "README.md",
       "type": "file",
       "path": "STOCK_300454_SANGFOR/README.md"
-    },
-    "STOCK_300308_INNOANCE/00_Executive_Summary.md": {
-      "name": "00_Executive_Summary.md",
-      "type": "file",
-      "path": "STOCK_300308_INNOANCE/00_Executive_Summary.md"
-    },
-    "STOCK_300308_INNOANCE/README.md": {
-      "name": "README.md",
-      "type": "file",
-      "path": "STOCK_300308_INNOANCE/README.md"
     },
     "STOCK_300661_SGMC/00_Executive_Summary.md": {
       "name": "00_Executive_Summary.md",
@@ -20911,80 +20380,20 @@ const directoryData = {
       "type": "file",
       "path": "STOCK_300751_MINDRAY/00_Executive_Summary.md"
     },
+    "STOCK_300751_MINDRAY/README.md": {
+      "name": "README.md",
+      "type": "file",
+      "path": "STOCK_300751_MINDRAY/README.md"
+    },
+    "STOCK_300751_MINDRAY/sources/research_log.md": {
+      "name": "research_log.md",
+      "type": "file",
+      "path": "STOCK_300751_MINDRAY/sources/research_log.md"
+    },
     "STOCK_300059_EAST_MONEY/README.md": {
       "name": "README.md",
       "type": "file",
       "path": "STOCK_300059_EAST_MONEY/README.md"
-    },
-    "STOCK_300015_AIER_EYE/00_Executive_Summary.md": {
-      "name": "00_Executive_Summary.md",
-      "type": "file",
-      "path": "STOCK_300015_AIER_EYE/00_Executive_Summary.md"
-    },
-    "STOCK_300015_AIER_EYE/Comprehensive_Report.md": {
-      "name": "Comprehensive_Report.md",
-      "type": "file",
-      "path": "STOCK_300015_AIER_EYE/Comprehensive_Report.md"
-    },
-    "STOCK_300015_AIER_EYE/README.md": {
-      "name": "README.md",
-      "type": "file",
-      "path": "STOCK_300015_AIER_EYE/README.md"
-    },
-    "STOCK_300017_WANGSU_SCIENCE/00_Executive_Summary.md": {
-      "name": "00_Executive_Summary.md",
-      "type": "file",
-      "path": "STOCK_300017_WANGSU_SCIENCE/00_Executive_Summary.md"
-    },
-    "STOCK_300017_WANGSU_SCIENCE/Comprehensive_Report.md": {
-      "name": "Comprehensive_Report.md",
-      "type": "file",
-      "path": "STOCK_300017_WANGSU_SCIENCE/Comprehensive_Report.md"
-    },
-    "STOCK_300017_WANGSU_SCIENCE/README.md": {
-      "name": "README.md",
-      "type": "file",
-      "path": "STOCK_300017_WANGSU_SCIENCE/README.md"
-    },
-    "STOCK_300033_TONGHUA_RESEARCH/00_Executive_Summary.md": {
-      "name": "00_Executive_Summary.md",
-      "type": "file",
-      "path": "STOCK_300033_TONGHUA_RESEARCH/00_Executive_Summary.md"
-    },
-    "STOCK_300033_TONGHUA_RESEARCH/Comprehensive_Report.md": {
-      "name": "Comprehensive_Report.md",
-      "type": "file",
-      "path": "STOCK_300033_TONGHUA_RESEARCH/Comprehensive_Report.md"
-    },
-    "STOCK_300033_TONGHUA_RESEARCH/README.md": {
-      "name": "README.md",
-      "type": "file",
-      "path": "STOCK_300033_TONGHUA_RESEARCH/README.md"
-    },
-    "STOCK_300115_CHANGYING/00_Executive_Summary.md": {
-      "name": "00_Executive_Summary.md",
-      "type": "file",
-      "path": "STOCK_300115_CHANGYING/00_Executive_Summary.md"
-    },
-    "STOCK_300115_CHANGYING/Comprehensive_Report.md": {
-      "name": "Comprehensive_Report.md",
-      "type": "file",
-      "path": "STOCK_300115_CHANGYING/Comprehensive_Report.md"
-    },
-    "STOCK_300115_CHANGYING/README.md": {
-      "name": "README.md",
-      "type": "file",
-      "path": "STOCK_300115_CHANGYING/README.md"
-    },
-    "STOCK__STOCK_/README.md": {
-      "name": "README.md",
-      "type": "file",
-      "path": "STOCK__STOCK_/README.md"
-    },
-    "STOCK_300002_SHENZHOU/README.md": {
-      "name": "README.md",
-      "type": "file",
-      "path": "STOCK_300002_SHENZHOU/README.md"
     },
     "STOCK_300024_SIASUN/00_Executive_Summary.md": {
       "name": "00_Executive_Summary.md",
@@ -21661,51 +21070,6 @@ const directoryData = {
       "type": "file",
       "path": "STOCK_300474_Jing/README.md"
     },
-    "STOCK_300502_Innolight/00_Executive_Summary.md": {
-      "name": "00_Executive_Summary.md",
-      "type": "file",
-      "path": "STOCK_300502_Innolight/00_Executive_Summary.md"
-    },
-    "STOCK_300502_Innolight/01_Business_Foundation.md": {
-      "name": "01_Business_Foundation.md",
-      "type": "file",
-      "path": "STOCK_300502_Innolight/01_Business_Foundation.md"
-    },
-    "STOCK_300502_Innolight/02_Industry_Analysis.md": {
-      "name": "02_Industry_Analysis.md",
-      "type": "file",
-      "path": "STOCK_300502_Innolight/02_Industry_Analysis.md"
-    },
-    "STOCK_300502_Innolight/03_Business_Breakdown.md": {
-      "name": "03_Business_Breakdown.md",
-      "type": "file",
-      "path": "STOCK_300502_Innolight/03_Business_Breakdown.md"
-    },
-    "STOCK_300502_Innolight/04_Financial_Quality.md": {
-      "name": "04_Financial_Quality.md",
-      "type": "file",
-      "path": "STOCK_300502_Innolight/04_Financial_Quality.md"
-    },
-    "STOCK_300502_Innolight/05_Governance_Analysis.md": {
-      "name": "05_Governance_Analysis.md",
-      "type": "file",
-      "path": "STOCK_300502_Innolight/05_Governance_Analysis.md"
-    },
-    "STOCK_300502_Innolight/06_Market_Sentiment.md": {
-      "name": "06_Market_Sentiment.md",
-      "type": "file",
-      "path": "STOCK_300502_Innolight/06_Market_Sentiment.md"
-    },
-    "STOCK_300502_Innolight/07_Valuation_Moat.md": {
-      "name": "07_Valuation_Moat.md",
-      "type": "file",
-      "path": "STOCK_300502_Innolight/07_Valuation_Moat.md"
-    },
-    "STOCK_300502_Innolight/README.md": {
-      "name": "README.md",
-      "type": "file",
-      "path": "STOCK_300502_Innolight/README.md"
-    },
     "STOCK_300724_Jinjia/00_Executive_Summary.md": {
       "name": "00_Executive_Summary.md",
       "type": "file",
@@ -21750,51 +21114,6 @@ const directoryData = {
       "name": "README.md",
       "type": "file",
       "path": "STOCK_300724_Jinjia/README.md"
-    },
-    "STOCK_300735_Light/00_Executive_Summary.md": {
-      "name": "00_Executive_Summary.md",
-      "type": "file",
-      "path": "STOCK_300735_Light/00_Executive_Summary.md"
-    },
-    "STOCK_300735_Light/01_Business_Foundation.md": {
-      "name": "01_Business_Foundation.md",
-      "type": "file",
-      "path": "STOCK_300735_Light/01_Business_Foundation.md"
-    },
-    "STOCK_300735_Light/02_Industry_Analysis.md": {
-      "name": "02_Industry_Analysis.md",
-      "type": "file",
-      "path": "STOCK_300735_Light/02_Industry_Analysis.md"
-    },
-    "STOCK_300735_Light/03_Business_Breakdown.md": {
-      "name": "03_Business_Breakdown.md",
-      "type": "file",
-      "path": "STOCK_300735_Light/03_Business_Breakdown.md"
-    },
-    "STOCK_300735_Light/04_Financial_Quality.md": {
-      "name": "04_Financial_Quality.md",
-      "type": "file",
-      "path": "STOCK_300735_Light/04_Financial_Quality.md"
-    },
-    "STOCK_300735_Light/05_Governance_Analysis.md": {
-      "name": "05_Governance_Analysis.md",
-      "type": "file",
-      "path": "STOCK_300735_Light/05_Governance_Analysis.md"
-    },
-    "STOCK_300735_Light/06_Market_Sentiment.md": {
-      "name": "06_Market_Sentiment.md",
-      "type": "file",
-      "path": "STOCK_300735_Light/06_Market_Sentiment.md"
-    },
-    "STOCK_300735_Light/07_Valuation_Moat.md": {
-      "name": "07_Valuation_Moat.md",
-      "type": "file",
-      "path": "STOCK_300735_Light/07_Valuation_Moat.md"
-    },
-    "STOCK_300735_Light/README.md": {
-      "name": "README.md",
-      "type": "file",
-      "path": "STOCK_300735_Light/README.md"
     },
     "STOCK_300759_Pharmaron/00_Executive_Summary.md": {
       "name": "00_Executive_Summary.md",
@@ -21975,51 +21294,6 @@ const directoryData = {
       "name": "README.md",
       "type": "file",
       "path": "STOCK_300803_Compass/README.md"
-    },
-    "STOCK_300896_Eime/00_Executive_Summary.md": {
-      "name": "00_Executive_Summary.md",
-      "type": "file",
-      "path": "STOCK_300896_Eime/00_Executive_Summary.md"
-    },
-    "STOCK_300896_Eime/01_Business_Foundation.md": {
-      "name": "01_Business_Foundation.md",
-      "type": "file",
-      "path": "STOCK_300896_Eime/01_Business_Foundation.md"
-    },
-    "STOCK_300896_Eime/02_Industry_Analysis.md": {
-      "name": "02_Industry_Analysis.md",
-      "type": "file",
-      "path": "STOCK_300896_Eime/02_Industry_Analysis.md"
-    },
-    "STOCK_300896_Eime/03_Business_Breakdown.md": {
-      "name": "03_Business_Breakdown.md",
-      "type": "file",
-      "path": "STOCK_300896_Eime/03_Business_Breakdown.md"
-    },
-    "STOCK_300896_Eime/04_Financial_Quality.md": {
-      "name": "04_Financial_Quality.md",
-      "type": "file",
-      "path": "STOCK_300896_Eime/04_Financial_Quality.md"
-    },
-    "STOCK_300896_Eime/05_Governance_Analysis.md": {
-      "name": "05_Governance_Analysis.md",
-      "type": "file",
-      "path": "STOCK_300896_Eime/05_Governance_Analysis.md"
-    },
-    "STOCK_300896_Eime/06_Market_Sentiment.md": {
-      "name": "06_Market_Sentiment.md",
-      "type": "file",
-      "path": "STOCK_300896_Eime/06_Market_Sentiment.md"
-    },
-    "STOCK_300896_Eime/07_Valuation_Moat.md": {
-      "name": "07_Valuation_Moat.md",
-      "type": "file",
-      "path": "STOCK_300896_Eime/07_Valuation_Moat.md"
-    },
-    "STOCK_300896_Eime/README.md": {
-      "name": "README.md",
-      "type": "file",
-      "path": "STOCK_300896_Eime/README.md"
     },
     "STOCK_301236_isoftstone/00_Executive_Summary.md": {
       "name": "00_Executive_Summary.md",
@@ -23041,11 +22315,6 @@ const directoryData = {
       "type": "file",
       "path": "STOCK_688278_SH_AmoyTop/README.md"
     },
-    "STOCK_688349_SH_Sany_Repower/03_业务拆解.md": {
-      "name": "03_业务拆解.md",
-      "type": "file",
-      "path": "STOCK_688349_SH_Sany_Repower/03_业务拆解.md"
-    },
     "STOCK_688525_SH_Biwin_Storage/00_Executive_Summary.md": {
       "name": "00_Executive_Summary.md",
       "type": "file",
@@ -23636,16 +22905,6 @@ const directoryData = {
       "type": "file",
       "path": "STOCK_603613_Guolian/README.md"
     },
-    "STOCK_688036_Transsion/README.md": {
-      "name": "README.md",
-      "type": "file",
-      "path": "STOCK_688036_Transsion/README.md"
-    },
-    "STOCK_688169_Roborock/README.md": {
-      "name": "README.md",
-      "type": "file",
-      "path": "STOCK_688169_Roborock/README.md"
-    },
     "STOCK_002602_Shijiagiantong/README.md": {
       "name": "README.md",
       "type": "file",
@@ -23751,6 +23010,11 @@ const directoryData = {
       "type": "file",
       "path": "STOCK_301183_Dongli_Machinery/README.md"
     },
+    "STOCK_301183_Dongli_Machinery/02_Industry_Analysis.md": {
+      "name": "02_Industry_Analysis.md",
+      "type": "file",
+      "path": "STOCK_301183_Dongli_Machinery/02_Industry_Analysis.md"
+    },
     "STOCK_301185_ZKTECO/00_Executive_Summary.md": {
       "name": "00_Executive_Summary.md",
       "type": "file",
@@ -23765,6 +23029,11 @@ const directoryData = {
       "name": "README.md",
       "type": "file",
       "path": "STOCK_301185_ZKTECO/README.md"
+    },
+    "STOCK_301185_ZKTECO/02_Technology_Analysis.md": {
+      "name": "02_Technology_Analysis.md",
+      "type": "file",
+      "path": "STOCK_301185_ZKTECO/02_Technology_Analysis.md"
     },
     "STOCK_301180_Mingke_Technology/00_Executive_Summary.md": {
       "name": "00_Executive_Summary.md",
@@ -23781,6 +23050,11 @@ const directoryData = {
       "type": "file",
       "path": "STOCK_301180_Mingke_Technology/README.md"
     },
+    "STOCK_301180_Mingke_Technology/02_Business_Analysis.md": {
+      "name": "02_Business_Analysis.md",
+      "type": "file",
+      "path": "STOCK_301180_Mingke_Technology/02_Business_Analysis.md"
+    },
     "STOCK_301181_Hongkaida/00_Executive_Summary.md": {
       "name": "00_Executive_Summary.md",
       "type": "file",
@@ -23795,6 +23069,11 @@ const directoryData = {
       "name": "README.md",
       "type": "file",
       "path": "STOCK_301181_Hongkaida/README.md"
+    },
+    "STOCK_301181_Hongkaida/02_Valuation_Analysis.md": {
+      "name": "02_Valuation_Analysis.md",
+      "type": "file",
+      "path": "STOCK_301181_Hongkaida/02_Valuation_Analysis.md"
     },
     "STOCK_301182_Tongli_Risun/00_Executive_Summary.md": {
       "name": "00_Executive_Summary.md",
@@ -23871,6 +23150,11 @@ const directoryData = {
       "type": "file",
       "path": "STOCK_301176_Hali_Shares/README.md"
     },
+    "STOCK_301176_Hali_Shares/02_Financial_Analysis.md": {
+      "name": "02_Financial_Analysis.md",
+      "type": "file",
+      "path": "STOCK_301176_Hali_Shares/02_Financial_Analysis.md"
+    },
     "STOCK_301171_Nanwang_Technology/00_Executive_Summary.md": {
       "name": "00_Executive_Summary.md",
       "type": "file",
@@ -23915,66 +23199,6 @@ const directoryData = {
       "name": "README.md",
       "type": "file",
       "path": "STOCK_301169_Dataway/README.md"
-    },
-    "STOCK_301168_Tongling_Electric/00_Executive_Summary.md": {
-      "name": "00_Executive_Summary.md",
-      "type": "file",
-      "path": "STOCK_301168_Tongling_Electric/00_Executive_Summary.md"
-    },
-    "STOCK_301168_Tongling_Electric/Comprehensive_Report.md": {
-      "name": "Comprehensive_Report.md",
-      "type": "file",
-      "path": "STOCK_301168_Tongling_Electric/Comprehensive_Report.md"
-    },
-    "STOCK_301168_Tongling_Electric/README.md": {
-      "name": "README.md",
-      "type": "file",
-      "path": "STOCK_301168_Tongling_Electric/README.md"
-    },
-    "STOCK_301111_Yue_Wanqing/00_Executive_Summary.md": {
-      "name": "00_Executive_Summary.md",
-      "type": "file",
-      "path": "STOCK_301111_Yue_Wanqing/00_Executive_Summary.md"
-    },
-    "STOCK_301111_Yue_Wanqing/Comprehensive_Report.md": {
-      "name": "Comprehensive_Report.md",
-      "type": "file",
-      "path": "STOCK_301111_Yue_Wanqing/Comprehensive_Report.md"
-    },
-    "STOCK_301111_Yue_Wanqing/README.md": {
-      "name": "README.md",
-      "type": "file",
-      "path": "STOCK_301111_Yue_Wanqing/README.md"
-    },
-    "STOCK_301036_Shangle_Pigment/00_Executive_Summary.md": {
-      "name": "00_Executive_Summary.md",
-      "type": "file",
-      "path": "STOCK_301036_Shangle_Pigment/00_Executive_Summary.md"
-    },
-    "STOCK_301036_Shangle_Pigment/Comprehensive_Report.md": {
-      "name": "Comprehensive_Report.md",
-      "type": "file",
-      "path": "STOCK_301036_Shangle_Pigment/Comprehensive_Report.md"
-    },
-    "STOCK_301036_Shangle_Pigment/README.md": {
-      "name": "README.md",
-      "type": "file",
-      "path": "STOCK_301036_Shangle_Pigment/README.md"
-    },
-    "STOCK_301028_Dong_Asia_Machinery/00_Executive_Summary.md": {
-      "name": "00_Executive_Summary.md",
-      "type": "file",
-      "path": "STOCK_301028_Dong_Asia_Machinery/00_Executive_Summary.md"
-    },
-    "STOCK_301028_Dong_Asia_Machinery/Comprehensive_Report.md": {
-      "name": "Comprehensive_Report.md",
-      "type": "file",
-      "path": "STOCK_301028_Dong_Asia_Machinery/Comprehensive_Report.md"
-    },
-    "STOCK_301028_Dong_Asia_Machinery/README.md": {
-      "name": "README.md",
-      "type": "file",
-      "path": "STOCK_301028_Dong_Asia_Machinery/README.md"
     },
     "STOCK_301011_Wah_Lap_Technology/00_Executive_Summary.md": {
       "name": "00_Executive_Summary.md",
@@ -24185,6 +23409,11 @@ const directoryData = {
       "name": "README.md",
       "type": "file",
       "path": "STOCK_301202_Langwei/README.md"
+    },
+    "STOCK_301202_Langwei/README_2026.md": {
+      "name": "README_2026.md",
+      "type": "file",
+      "path": "STOCK_301202_Langwei/README_2026.md"
     },
     "STOCK_301201_Chengda_Pharm/00_Executive_Summary.md": {
       "name": "00_Executive_Summary.md",
@@ -24471,156 +23700,6 @@ const directoryData = {
       "type": "file",
       "path": "STOCK_300999_金龙羽/README.md"
     },
-    "STOCK_688297_中无人机/00_Executive_Summary.md": {
-      "name": "00_Executive_Summary.md",
-      "type": "file",
-      "path": "STOCK_688297_中无人机/00_Executive_Summary.md"
-    },
-    "STOCK_688297_中无人机/Comprehensive_Report.md": {
-      "name": "Comprehensive_Report.md",
-      "type": "file",
-      "path": "STOCK_688297_中无人机/Comprehensive_Report.md"
-    },
-    "STOCK_688297_中无人机/README.md": {
-      "name": "README.md",
-      "type": "file",
-      "path": "STOCK_688297_中无人机/README.md"
-    },
-    "STOCK_688303_大全能源/00_Executive_Summary.md": {
-      "name": "00_Executive_Summary.md",
-      "type": "file",
-      "path": "STOCK_688303_大全能源/00_Executive_Summary.md"
-    },
-    "STOCK_688303_大全能源/Comprehensive_Report.md": {
-      "name": "Comprehensive_Report.md",
-      "type": "file",
-      "path": "STOCK_688303_大全能源/Comprehensive_Report.md"
-    },
-    "STOCK_688303_大全能源/README.md": {
-      "name": "README.md",
-      "type": "file",
-      "path": "STOCK_688303_大全能源/README.md"
-    },
-    "STOCK_688375_国博电子/00_Executive_Summary.md": {
-      "name": "00_Executive_Summary.md",
-      "type": "file",
-      "path": "STOCK_688375_国博电子/00_Executive_Summary.md"
-    },
-    "STOCK_688375_国博电子/Comprehensive_Report.md": {
-      "name": "Comprehensive_Report.md",
-      "type": "file",
-      "path": "STOCK_688375_国博电子/Comprehensive_Report.md"
-    },
-    "STOCK_688375_国博电子/README.md": {
-      "name": "README.md",
-      "type": "file",
-      "path": "STOCK_688375_国博电子/README.md"
-    },
-    "STOCK_688396_萤石网络/00_Executive_Summary.md": {
-      "name": "00_Executive_Summary.md",
-      "type": "file",
-      "path": "STOCK_688396_萤石网络/00_Executive_Summary.md"
-    },
-    "STOCK_688396_萤石网络/Comprehensive_Report.md": {
-      "name": "Comprehensive_Report.md",
-      "type": "file",
-      "path": "STOCK_688396_萤石网络/Comprehensive_Report.md"
-    },
-    "STOCK_688396_萤石网络/README.md": {
-      "name": "README.md",
-      "type": "file",
-      "path": "STOCK_688396_萤石网络/README.md"
-    },
-    "STOCK_688469_芯联集成/00_Executive_Summary.md": {
-      "name": "00_Executive_Summary.md",
-      "type": "file",
-      "path": "STOCK_688469_芯联集成/00_Executive_Summary.md"
-    },
-    "STOCK_688469_芯联集成/Comprehensive_Report.md": {
-      "name": "Comprehensive_Report.md",
-      "type": "file",
-      "path": "STOCK_688469_芯联集成/Comprehensive_Report.md"
-    },
-    "STOCK_688469_芯联集成/README.md": {
-      "name": "README.md",
-      "type": "file",
-      "path": "STOCK_688469_芯联集成/README.md"
-    },
-    "STOCK_688472_中科蓝讯/00_Executive_Summary.md": {
-      "name": "00_Executive_Summary.md",
-      "type": "file",
-      "path": "STOCK_688472_中科蓝讯/00_Executive_Summary.md"
-    },
-    "STOCK_688472_中科蓝讯/Comprehensive_Report.md": {
-      "name": "Comprehensive_Report.md",
-      "type": "file",
-      "path": "STOCK_688472_中科蓝讯/Comprehensive_Report.md"
-    },
-    "STOCK_688472_中科蓝讯/README.md": {
-      "name": "README.md",
-      "type": "file",
-      "path": "STOCK_688472_中科蓝讯/README.md"
-    },
-    "STOCK_688475_港通医疗/00_Executive_Summary.md": {
-      "name": "00_Executive_Summary.md",
-      "type": "file",
-      "path": "STOCK_688475_港通医疗/00_Executive_Summary.md"
-    },
-    "STOCK_688475_港通医疗/Comprehensive_Report.md": {
-      "name": "Comprehensive_Report.md",
-      "type": "file",
-      "path": "STOCK_688475_港通医疗/Comprehensive_Report.md"
-    },
-    "STOCK_688475_港通医疗/README.md": {
-      "name": "README.md",
-      "type": "file",
-      "path": "STOCK_688475_港通医疗/README.md"
-    },
-    "STOCK_688506_百利天恒/00_Executive_Summary.md": {
-      "name": "00_Executive_Summary.md",
-      "type": "file",
-      "path": "STOCK_688506_百利天恒/00_Executive_Summary.md"
-    },
-    "STOCK_688506_百利天恒/Comprehensive_Report.md": {
-      "name": "Comprehensive_Report.md",
-      "type": "file",
-      "path": "STOCK_688506_百利天恒/Comprehensive_Report.md"
-    },
-    "STOCK_688506_百利天恒/README.md": {
-      "name": "README.md",
-      "type": "file",
-      "path": "STOCK_688506_百利天恒/README.md"
-    },
-    "STOCK_688521_唯捷创芯/00_Executive_Summary.md": {
-      "name": "00_Executive_Summary.md",
-      "type": "file",
-      "path": "STOCK_688521_唯捷创芯/00_Executive_Summary.md"
-    },
-    "STOCK_688521_唯捷创芯/Comprehensive_Report.md": {
-      "name": "Comprehensive_Report.md",
-      "type": "file",
-      "path": "STOCK_688521_唯捷创芯/Comprehensive_Report.md"
-    },
-    "STOCK_688521_唯捷创芯/README.md": {
-      "name": "README.md",
-      "type": "file",
-      "path": "STOCK_688521_唯捷创芯/README.md"
-    },
-    "STOCK_300821_DONGYUE/00_Executive_Summary.md": {
-      "name": "00_Executive_Summary.md",
-      "type": "file",
-      "path": "STOCK_300821_DONGYUE/00_Executive_Summary.md"
-    },
-    "STOCK_300821_DONGYUE/Comprehensive_Report.md": {
-      "name": "Comprehensive_Report.md",
-      "type": "file",
-      "path": "STOCK_300821_DONGYUE/Comprehensive_Report.md"
-    },
-    "STOCK_300821_DONGYUE/README.md": {
-      "name": "README.md",
-      "type": "file",
-      "path": "STOCK_300821_DONGYUE/README.md"
-    },
     "STOCK_300821_Sinocare/00_Executive_Summary.md": {
       "name": "00_Executive_Summary.md",
       "type": "file",
@@ -24681,21 +23760,6 @@ const directoryData = {
       "type": "file",
       "path": "STOCK_300075_DIGITAL_CHINA/README.md"
     },
-    "STOCK_300955_JIAHENJIAHUA/00_Executive_Summary.md": {
-      "name": "00_Executive_Summary.md",
-      "type": "file",
-      "path": "STOCK_300955_JIAHENJIAHUA/00_Executive_Summary.md"
-    },
-    "STOCK_300955_JIAHENJIAHUA/Comprehensive_Report.md": {
-      "name": "Comprehensive_Report.md",
-      "type": "file",
-      "path": "STOCK_300955_JIAHENJIAHUA/Comprehensive_Report.md"
-    },
-    "STOCK_300955_JIAHENJIAHUA/README.md": {
-      "name": "README.md",
-      "type": "file",
-      "path": "STOCK_300955_JIAHENJIAHUA/README.md"
-    },
     "STOCK_688480_SAIENS/00_Executive_Summary.md": {
       "name": "00_Executive_Summary.md",
       "type": "file",
@@ -24710,6 +23774,161 @@ const directoryData = {
       "name": "README.md",
       "type": "file",
       "path": "STOCK_688480_SAIENS/README.md"
+    },
+    "STOCK_300054_Dinglong/00_Executive_Summary.md": {
+      "name": "00_Executive_Summary.md",
+      "type": "file",
+      "path": "STOCK_300054_Dinglong/00_Executive_Summary.md"
+    },
+    "STOCK_300054_Dinglong/README.md": {
+      "name": "README.md",
+      "type": "file",
+      "path": "STOCK_300054_Dinglong/README.md"
+    },
+    "STOCK_300054_Dinglong/sources/research_log.md": {
+      "name": "research_log.md",
+      "type": "file",
+      "path": "STOCK_300054_Dinglong/sources/research_log.md"
+    },
+    "STOCK_300699_Guangwei/README.md": {
+      "name": "README.md",
+      "type": "file",
+      "path": "STOCK_300699_Guangwei/README.md"
+    },
+    "STOCK_603045_Fuda/README.md": {
+      "name": "README.md",
+      "type": "file",
+      "path": "STOCK_603045_Fuda/README.md"
+    },
+    "STOCK_002706_Liangxin/README.md": {
+      "name": "README.md",
+      "type": "file",
+      "path": "STOCK_002706_Liangxin/README.md"
+    },
+    "STOCK_300470_Sunvall/README.md": {
+      "name": "README.md",
+      "type": "file",
+      "path": "STOCK_300470_Sunvall/README.md"
+    },
+    "STOCK_002384_Dongshan/README.md": {
+      "name": "README.md",
+      "type": "file",
+      "path": "STOCK_002384_Dongshan/README.md"
+    },
+    "STOCK_002540_Yatai/README.md": {
+      "name": "README.md",
+      "type": "file",
+      "path": "STOCK_002540_Yatai/README.md"
+    },
+    "STOCK_300786_YOFC/README.md": {
+      "name": "README.md",
+      "type": "file",
+      "path": "STOCK_300786_YOFC/README.md"
+    },
+    "STOCK_688169_Roborock/README.md": {
+      "name": "README.md",
+      "type": "file",
+      "path": "STOCK_688169_Roborock/README.md"
+    },
+    "STOCK_688036_Transsion/README.md": {
+      "name": "README.md",
+      "type": "file",
+      "path": "STOCK_688036_Transsion/README.md"
+    },
+    "STOCK_300634_Richinfo/README.md": {
+      "name": "README.md",
+      "type": "file",
+      "path": "STOCK_300634_Richinfo/README.md"
+    },
+    "STOCK_000035_ChinaTianying/README.md": {
+      "name": "README.md",
+      "type": "file",
+      "path": "STOCK_000035_ChinaTianying/README.md"
+    },
+    "STOCK_PHH_Parkha/README.md": {
+      "name": "README.md",
+      "type": "file",
+      "path": "STOCK_PHH_Parkha/README.md"
+    },
+    "STOCK_300598_Chengmai/README.md": {
+      "name": "README.md",
+      "type": "file",
+      "path": "STOCK_300598_Chengmai/README.md"
+    },
+    "STOCK_300888_WinnerMedical/00_Executive_Summary.md": {
+      "name": "00_Executive_Summary.md",
+      "type": "file",
+      "path": "STOCK_300888_WinnerMedical/00_Executive_Summary.md"
+    },
+    "STOCK_300888_WinnerMedical/README.md": {
+      "name": "README.md",
+      "type": "file",
+      "path": "STOCK_300888_WinnerMedical/README.md"
+    },
+    "STOCK_300821_Sanuocare/README_2026.md": {
+      "name": "README_2026.md",
+      "type": "file",
+      "path": "STOCK_300821_Sanuocare/README_2026.md"
+    },
+    "STOCK_300782_YOFC/00_Executive_Summary.md": {
+      "name": "00_Executive_Summary.md",
+      "type": "file",
+      "path": "STOCK_300782_YOFC/00_Executive_Summary.md"
+    },
+    "STOCK_300782_YOFC/README_2026.md": {
+      "name": "README_2026.md",
+      "type": "file",
+      "path": "STOCK_300782_YOFC/README_2026.md"
+    },
+    "STOCK_300777_FULLHAN/00_Executive_Summary.md": {
+      "name": "00_Executive_Summary.md",
+      "type": "file",
+      "path": "STOCK_300777_FULLHAN/00_Executive_Summary.md"
+    },
+    "STOCK_300777_FULLHAN/README_2026.md": {
+      "name": "README_2026.md",
+      "type": "file",
+      "path": "STOCK_300777_FULLHAN/README_2026.md"
+    },
+    "STOCK_300819_Jujie/README_2026.md": {
+      "name": "README_2026.md",
+      "type": "file",
+      "path": "STOCK_300819_Jujie/README_2026.md"
+    },
+    "STOCK_688038_Zhongke_Tongda/README_2026.md": {
+      "name": "README_2026.md",
+      "type": "file",
+      "path": "STOCK_688038_Zhongke_Tongda/README_2026.md"
+    },
+    "STOCK_688211_Zhongke/README_2026.md": {
+      "name": "README_2026.md",
+      "type": "file",
+      "path": "STOCK_688211_Zhongke/README_2026.md"
+    },
+    "STOCK_301205_Liant/README_2026.md": {
+      "name": "README_2026.md",
+      "type": "file",
+      "path": "STOCK_301205_Liant/README_2026.md"
+    },
+    "STOCK_301206_Sanyuan/README_2026.md": {
+      "name": "README_2026.md",
+      "type": "file",
+      "path": "STOCK_301206_Sanyuan/README_2026.md"
+    },
+    "STOCK_ZTO_ZTOExpress/README.md": {
+      "name": "README.md",
+      "type": "file",
+      "path": "STOCK_ZTO_ZTOExpress/README.md"
+    },
+    "STOCK_TUYA_TuyaSmart/README.md": {
+      "name": "README.md",
+      "type": "file",
+      "path": "STOCK_TUYA_TuyaSmart/README.md"
+    },
+    "STOCK_QFIN_360Digital/README.md": {
+      "name": "README.md",
+      "type": "file",
+      "path": "STOCK_QFIN_360Digital/README.md"
     }
   }
 };
