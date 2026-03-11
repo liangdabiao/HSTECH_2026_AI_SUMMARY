@@ -399,6 +399,12 @@ const directoryData = {
           "displayName": "概述",
           "path": "STOCK_00020_HK_SenseTime/README.md",
           "size": 13760
+        },
+        {
+          "name": "README_2026.md",
+          "displayName": "README_2026",
+          "path": "STOCK_00020_HK_SenseTime/2026/README_2026.md",
+          "size": 9383
         }
       ]
     },
@@ -603,6 +609,12 @@ const directoryData = {
           "displayName": "概述",
           "path": "STOCK_09698_HK_GDS/README.md",
           "size": 7723
+        },
+        {
+          "name": "README_2026.md",
+          "displayName": "README_2026",
+          "path": "STOCK_09698_HK_GDS/README_2026.md",
+          "size": 9201
         }
       ]
     },
@@ -1481,6 +1493,12 @@ const directoryData = {
           "size": 12003
         },
         {
+          "name": "README_2026.md",
+          "displayName": "README_2026",
+          "path": "STOCK_09618_HK_JD_com/README_2026.md",
+          "size": 12126
+        },
+        {
           "name": "bibliography.md",
           "displayName": "bibliography",
           "path": "STOCK_09618_HK_JD_com/sources/bibliography.md",
@@ -2181,6 +2199,12 @@ const directoryData = {
           "displayName": "2025财务更新",
           "path": "STOCK_09988_HK_Alibaba/2025_Financial_Update.md",
           "size": 2262
+        },
+        {
+          "name": "README_2026.md",
+          "displayName": "README_2026",
+          "path": "STOCK_09988_HK_Alibaba/README_2026.md",
+          "size": 12159
         }
       ]
     },
@@ -2419,6 +2443,12 @@ const directoryData = {
           "size": 21298
         },
         {
+          "name": "README_2026.md",
+          "displayName": "README_2026",
+          "path": "STOCK_BIDU_Baidu/README_2026.md",
+          "size": 8102
+        },
+        {
           "name": "key_metrics_summary.md",
           "displayName": "key_metrics_summary",
           "path": "STOCK_BIDU_Baidu/Financial_Data/key_metrics_summary.md",
@@ -2481,6 +2511,12 @@ const directoryData = {
           "size": 8082
         },
         {
+          "name": "README_2026.md",
+          "displayName": "README_2026",
+          "path": "STOCK_BEDU_BrightScholar/README_2026.md",
+          "size": 6677
+        },
+        {
           "name": "research_log.md",
           "displayName": "research_log",
           "path": "STOCK_BEDU_BrightScholar/sources/research_log.md",
@@ -2498,7 +2534,13 @@ const directoryData = {
           "name": "README.md",
           "displayName": "概述",
           "path": "STOCK_COE_51Talk/README.md",
-          "size": 14972
+          "size": 4133
+        },
+        {
+          "name": "README_2026.md",
+          "displayName": "README_2026",
+          "path": "STOCK_COE_51Talk/README_2026.md",
+          "size": 7945
         }
       ]
     },
@@ -2636,7 +2678,13 @@ const directoryData = {
           "name": "README.md",
           "displayName": "概述",
           "path": "STOCK_STG_Sunlands/README.md",
-          "size": 1554
+          "size": 2833
+        },
+        {
+          "name": "README_2026.md",
+          "displayName": "README_2026",
+          "path": "STOCK_STG_Sunlands/README_2026.md",
+          "size": 6760
         }
       ]
     },
@@ -2698,7 +2746,13 @@ const directoryData = {
           "name": "README.md",
           "displayName": "概述",
           "path": "STOCK_CIC_BlueCity/README.md",
-          "size": 1676
+          "size": 3520
+        },
+        {
+          "name": "README_2026.md",
+          "displayName": "README_2026",
+          "path": "STOCK_CIC_BlueCity/README_2026.md",
+          "size": 5151
         }
       ]
     },
@@ -2779,6 +2833,12 @@ const directoryData = {
           "displayName": "概述",
           "path": "STOCK_POZH_Parkha/README.md",
           "size": 1322
+        },
+        {
+          "name": "README_2026.md",
+          "displayName": "README_2026",
+          "path": "STOCK_POZH_Parkha/README_2026.md",
+          "size": 5911
         }
       ]
     },
@@ -2887,6 +2947,12 @@ const directoryData = {
           "displayName": "02_Business_Transformation",
           "path": "STOCK_LU_Lufax/02_Business_Transformation.md",
           "size": 4128
+        },
+        {
+          "name": "README_2026.md",
+          "displayName": "README_2026",
+          "path": "STOCK_LU_Lufax/README_2026.md",
+          "size": 9762
         }
       ]
     },
@@ -2907,6 +2973,12 @@ const directoryData = {
           "displayName": "02_Competitive_Analysis",
           "path": "STOCK_HUYA_Huya/02_Competitive_Analysis.md",
           "size": 3910
+        },
+        {
+          "name": "README_2026.md",
+          "displayName": "README_2026",
+          "path": "STOCK_HUYA_Huya/README_2026.md",
+          "size": 6066
         }
       ]
     },
@@ -3021,6 +3093,12 @@ const directoryData = {
           "displayName": "02_Business_Analysis",
           "path": "STOCK_BZUN_Baozun/02_Business_Analysis.md",
           "size": 3671
+        },
+        {
+          "name": "README_2026.md",
+          "displayName": "README_2026",
+          "path": "STOCK_BZUN_Baozun/README_2026.md",
+          "size": 6342
         }
       ]
     },
@@ -3091,6 +3169,12 @@ const directoryData = {
           "displayName": "概述",
           "path": "STOCK_DOYU_Douyu/README.md",
           "size": 15330
+        },
+        {
+          "name": "README_2026.md",
+          "displayName": "README_2026",
+          "path": "STOCK_DOYU_Douyu/README_2026.md",
+          "size": 6139
         }
       ]
     },
@@ -3119,6 +3203,12 @@ const directoryData = {
           "displayName": "概述",
           "path": "STOCK_QFIN_QuantumSong/README.md",
           "size": 2169
+        },
+        {
+          "name": "README_2026.md",
+          "displayName": "README_2026",
+          "path": "STOCK_QFIN_QuantumSong/README_2026.md",
+          "size": 7775
         }
       ]
     },
@@ -3133,6 +3223,12 @@ const directoryData = {
           "displayName": "概述",
           "path": "STOCK_DAO_Youdao/README.md",
           "size": 13757
+        },
+        {
+          "name": "README_2026.md",
+          "displayName": "README_2026",
+          "path": "STOCK_DAO_Youdao/README_2026.md",
+          "size": 8892
         }
       ]
     },
@@ -3729,6 +3825,12 @@ const directoryData = {
           "displayName": "概述",
           "path": "STOCK_VNET_21Vianet/README.md",
           "size": 6179
+        },
+        {
+          "name": "README_2026.md",
+          "displayName": "README_2026",
+          "path": "STOCK_VNET_21Vianet/README_2026.md",
+          "size": 7719
         }
       ]
     },
@@ -3847,6 +3949,12 @@ const directoryData = {
           "displayName": "00_执行摘要",
           "path": "STOCK_ATHM_Autohome/00_Executive_Summary.md",
           "size": 9395
+        },
+        {
+          "name": "README_2026.md",
+          "displayName": "README_2026",
+          "path": "STOCK_ATHM_Autohome/README_2026.md",
+          "size": 10133
         }
       ]
     },
@@ -3861,6 +3969,12 @@ const directoryData = {
           "displayName": "00_执行摘要",
           "path": "STOCK_MNSO_Miniso/00_Executive_Summary.md",
           "size": 9140
+        },
+        {
+          "name": "README_2026.md",
+          "displayName": "README_2026",
+          "path": "STOCK_MNSO_Miniso/README_2026.md",
+          "size": 7544
         }
       ]
     },
@@ -3875,6 +3989,12 @@ const directoryData = {
           "displayName": "00_执行摘要",
           "path": "STOCK_TAL_TAL_Education/00_Executive_Summary.md",
           "size": 10048
+        },
+        {
+          "name": "README_2026.md",
+          "displayName": "README_2026",
+          "path": "STOCK_TAL_TAL_Education/README_2026.md",
+          "size": 9059
         }
       ]
     },
@@ -3915,6 +4035,12 @@ const directoryData = {
           "displayName": "概述",
           "path": "STOCK_VIPS_Vipshop/README.md",
           "size": 12132
+        },
+        {
+          "name": "README_2026.md",
+          "displayName": "README_2026",
+          "path": "STOCK_VIPS_Vipshop/README_2026.md",
+          "size": 5895
         }
       ]
     },
@@ -3943,6 +4069,12 @@ const directoryData = {
           "displayName": "00_执行摘要",
           "path": "STOCK_ATAT_Atour/00_Executive_Summary.md",
           "size": 10030
+        },
+        {
+          "name": "README_2026.md",
+          "displayName": "README_2026",
+          "path": "STOCK_ATAT_Atour/README_2026.md",
+          "size": 6690
         }
       ]
     },
@@ -3977,6 +4109,12 @@ const directoryData = {
           "displayName": "概述",
           "path": "STOCK_BILI_Bilibili/README.md",
           "size": 13853
+        },
+        {
+          "name": "README_2026.md",
+          "displayName": "README_2026",
+          "path": "STOCK_BILI_Bilibili/README_2026.md",
+          "size": 8562
         }
       ]
     },
@@ -4011,6 +4149,12 @@ const directoryData = {
           "displayName": "概述",
           "path": "STOCK_PDD_Pinduoduo/README.md",
           "size": 11467
+        },
+        {
+          "name": "README_2026.md",
+          "displayName": "README_2026",
+          "path": "STOCK_PDD_Pinduoduo/README_2026.md",
+          "size": 7706
         }
       ]
     },
@@ -4031,6 +4175,12 @@ const directoryData = {
           "displayName": "概述",
           "path": "STOCK_XPEV_Xpeng/README.md",
           "size": 14150
+        },
+        {
+          "name": "README_2026.md",
+          "displayName": "README_2026",
+          "path": "STOCK_XPEV_Xpeng/README_2026.md",
+          "size": 5825
         }
       ]
     },
@@ -4071,6 +4221,12 @@ const directoryData = {
           "displayName": "概述",
           "path": "STOCK_NIO_NIO/README.md",
           "size": 14600
+        },
+        {
+          "name": "README_2026.md",
+          "displayName": "README_2026",
+          "path": "STOCK_NIO_NIO/README_2026.md",
+          "size": 8300
         }
       ]
     },
@@ -4091,6 +4247,12 @@ const directoryData = {
           "displayName": "概述",
           "path": "STOCK_NTES_NetEase/README.md",
           "size": 15093
+        },
+        {
+          "name": "README_2026.md",
+          "displayName": "README_2026",
+          "path": "STOCK_NTES_NetEase/README_2026.md",
+          "size": 7288
         }
       ]
     },
@@ -4111,6 +4273,12 @@ const directoryData = {
           "displayName": "概述",
           "path": "STOCK_JD_JDcom/README.md",
           "size": 12386
+        },
+        {
+          "name": "README_2026.md",
+          "displayName": "README_2026",
+          "path": "STOCK_JD_JDcom/README_2026.md",
+          "size": 9862
         }
       ]
     },
@@ -4131,6 +4299,12 @@ const directoryData = {
           "displayName": "概述",
           "path": "STOCK_BABA_Alibaba/README.md",
           "size": 13116
+        },
+        {
+          "name": "README_2026.md",
+          "displayName": "README_2026",
+          "path": "STOCK_BABA_Alibaba/README_2026.md",
+          "size": 9517
         }
       ]
     },
@@ -7923,6 +8097,12 @@ const directoryData = {
           "displayName": "概述",
           "path": "STOCK_300142_WALVAX/README.md",
           "size": 14983
+        },
+        {
+          "name": "README_2026.md",
+          "displayName": "README_2026",
+          "path": "STOCK_300142_WALVAX/README_2026.md",
+          "size": 8385
         }
       ]
     },
@@ -14147,6 +14327,382 @@ const directoryData = {
           "size": 3711
         }
       ]
+    },
+    {
+      "id": "STOCK_EDU_New_Oriental",
+      "name": "STOCK_EDU_New_Oriental",
+      "folder": "STOCK_EDU_New_Oriental",
+      "market": "us",
+      "files": [
+        {
+          "name": "README_2026.md",
+          "displayName": "README_2026",
+          "path": "STOCK_EDU_New_Oriental/README_2026.md",
+          "size": 9497
+        }
+      ]
+    },
+    {
+      "id": "STOCK_002594_BYD",
+      "name": "STOCK_002594_BYD",
+      "folder": "STOCK_002594_BYD",
+      "market": "cn",
+      "files": [
+        {
+          "name": "README_2026.md",
+          "displayName": "README_2026",
+          "path": "STOCK_002594_BYD/README_2026.md",
+          "size": 9866
+        }
+      ]
+    },
+    {
+      "id": "STOCK_600104_SAIC_Motor",
+      "name": "STOCK_600104_SAIC_Motor",
+      "folder": "STOCK_600104_SAIC_Motor",
+      "market": "cn",
+      "files": [
+        {
+          "name": "README_2026.md",
+          "displayName": "README_2026",
+          "path": "STOCK_600104_SAIC_Motor/README_2026.md",
+          "size": 9542
+        }
+      ]
+    },
+    {
+      "id": "STOCK_600418_JAC",
+      "name": "STOCK_600418_JAC",
+      "folder": "STOCK_600418_JAC",
+      "market": "cn",
+      "files": [
+        {
+          "name": "README_2026.md",
+          "displayName": "README_2026",
+          "path": "STOCK_600418_JAC/README_2026.md",
+          "size": 7941
+        }
+      ]
+    },
+    {
+      "id": "STOCK_601633_Great_Wall_Motor",
+      "name": "STOCK_601633_Great_Wall_Motor",
+      "folder": "STOCK_601633_Great_Wall_Motor",
+      "market": "cn",
+      "files": [
+        {
+          "name": "README_2026.md",
+          "displayName": "README_2026",
+          "path": "STOCK_601633_Great_Wall_Motor/README_2026.md",
+          "size": 9071
+        }
+      ]
+    },
+    {
+      "id": "STOCK_601238_GAC_Group",
+      "name": "STOCK_601238_GAC_Group",
+      "folder": "STOCK_601238_GAC_Group",
+      "market": "cn",
+      "files": [
+        {
+          "name": "README_2026.md",
+          "displayName": "README_2026",
+          "path": "STOCK_601238_GAC_Group/README_2026.md",
+          "size": 7892
+        }
+      ]
+    },
+    {
+      "id": "STOCK_601127_Seres",
+      "name": "STOCK_601127_Seres",
+      "folder": "STOCK_601127_Seres",
+      "market": "cn",
+      "files": [
+        {
+          "name": "README_2026.md",
+          "displayName": "README_2026",
+          "path": "STOCK_601127_Seres/README_2026.md",
+          "size": 8987
+        }
+      ]
+    },
+    {
+      "id": "STOCK_LI_Li_Auto",
+      "name": "STOCK_LI_Li_Auto",
+      "folder": "STOCK_LI_Li_Auto",
+      "market": "us",
+      "files": [
+        {
+          "name": "README_2026.md",
+          "displayName": "README_2026",
+          "path": "STOCK_LI_Li_Auto/README_2026.md",
+          "size": 5935
+        }
+      ]
+    },
+    {
+      "id": "STOCK_YUMC_YumChina",
+      "name": "STOCK_YUMC_YumChina",
+      "folder": "STOCK_YUMC_YumChina",
+      "market": "us",
+      "files": [
+        {
+          "name": "README_2026.md",
+          "displayName": "README_2026",
+          "path": "STOCK_YUMC_YumChina/README_2026.md",
+          "size": 6289
+        }
+      ]
+    },
+    {
+      "id": "STOCK_MOMO_Momo",
+      "name": "STOCK_MOMO_Momo",
+      "folder": "STOCK_MOMO_Momo",
+      "market": "us",
+      "files": [
+        {
+          "name": "README_2026.md",
+          "displayName": "README_2026",
+          "path": "STOCK_MOMO_Momo/README_2026.md",
+          "size": 6373
+        }
+      ]
+    },
+    {
+      "id": "STOCK_GOTU_Gaotu",
+      "name": "STOCK_GOTU_Gaotu",
+      "folder": "STOCK_GOTU_Gaotu",
+      "market": "us",
+      "files": [
+        {
+          "name": "README_2026.md",
+          "displayName": "README_2026",
+          "path": "STOCK_GOTU_Gaotu/README_2026.md",
+          "size": 6361
+        }
+      ]
+    },
+    {
+      "id": "STOCK_688185_SH_CanSino",
+      "name": "STOCK_688185_SH_CanSino",
+      "folder": "STOCK_688185_SH_CanSino",
+      "market": "cn",
+      "files": [
+        {
+          "name": "README_2026.md",
+          "displayName": "README_2026",
+          "path": "STOCK_688185_SH_CanSino/README_2026.md",
+          "size": 8413
+        }
+      ]
+    },
+    {
+      "id": "STOCK_2020_HK_ANTA",
+      "name": "STOCK_2020_HK_ANTA",
+      "folder": "STOCK_2020_HK_ANTA",
+      "market": "hk",
+      "files": [
+        {
+          "name": "README_2026.md",
+          "displayName": "README_2026",
+          "path": "STOCK_2020_HK_ANTA/README_2026.md",
+          "size": 8150
+        }
+      ]
+    },
+    {
+      "id": "STOCK_2331_HK_Li_Ning",
+      "name": "STOCK_2331_HK_Li_Ning",
+      "folder": "STOCK_2331_HK_Li_Ning",
+      "market": "hk",
+      "files": [
+        {
+          "name": "README_2026.md",
+          "displayName": "README_2026",
+          "path": "STOCK_2331_HK_Li_Ning/README_2026.md",
+          "size": 8517
+        }
+      ]
+    },
+    {
+      "id": "STOCK_ZLAB_ZaiLab",
+      "name": "STOCK_ZLAB_ZaiLab",
+      "folder": "STOCK_ZLAB_ZaiLab",
+      "market": "us",
+      "files": [
+        {
+          "name": "README_2026.md",
+          "displayName": "README_2026",
+          "path": "STOCK_ZLAB_ZaiLab/README_2026.md",
+          "size": 9970
+        }
+      ]
+    },
+    {
+      "id": "STOCK_HCM_HutchMed",
+      "name": "STOCK_HCM_HutchMed",
+      "folder": "STOCK_HCM_HutchMed",
+      "market": "us",
+      "files": [
+        {
+          "name": "README_2026.md",
+          "displayName": "README_2026",
+          "path": "STOCK_HCM_HutchMed/README_2026.md",
+          "size": 11152
+        }
+      ]
+    },
+    {
+      "id": "STOCK_BGNE_BeiGene",
+      "name": "STOCK_BGNE_BeiGene",
+      "folder": "STOCK_BGNE_BeiGene",
+      "market": "us",
+      "files": [
+        {
+          "name": "README_2026.md",
+          "displayName": "README_2026",
+          "path": "STOCK_BGNE_BeiGene/README_2026.md",
+          "size": 9453
+        }
+      ]
+    },
+    {
+      "id": "STOCK_TME_TencentMusic",
+      "name": "STOCK_TME_TencentMusic",
+      "folder": "STOCK_TME_TencentMusic",
+      "market": "us",
+      "files": [
+        {
+          "name": "README_2026.md",
+          "displayName": "README_2026",
+          "path": "STOCK_TME_TencentMusic/README_2026.md",
+          "size": 9232
+        }
+      ]
+    },
+    {
+      "id": "STOCK_BEKE_KeHoldings",
+      "name": "STOCK_BEKE_KeHoldings",
+      "folder": "STOCK_BEKE_KeHoldings",
+      "market": "us",
+      "files": [
+        {
+          "name": "README_2026.md",
+          "displayName": "README_2026",
+          "path": "STOCK_BEKE_KeHoldings/README_2026.md",
+          "size": 9157
+        }
+      ]
+    },
+    {
+      "id": "STOCK_QFIN_360Shuke",
+      "name": "STOCK_QFIN_360Shuke",
+      "folder": "STOCK_QFIN_360Shuke",
+      "market": "us",
+      "files": [
+        {
+          "name": "README_2026.md",
+          "displayName": "README_2026",
+          "path": "STOCK_QFIN_360Shuke/README_2026.md",
+          "size": 8717
+        }
+      ]
+    },
+    {
+      "id": "STOCK_02359_WuXi_AppTec",
+      "name": "STOCK_02359_WuXi_AppTec",
+      "folder": "STOCK_02359_WuXi_AppTec",
+      "market": "cn",
+      "files": [
+        {
+          "name": "README_2026.md",
+          "displayName": "README_2026",
+          "path": "STOCK_02359_WuXi_AppTec/README_2026.md",
+          "size": 8447
+        }
+      ]
+    },
+    {
+      "id": "STOCK_300750_CATL",
+      "name": "宁德时代 (300750)",
+      "folder": "STOCK_300750_CATL",
+      "market": "cn",
+      "files": [
+        {
+          "name": "00_Executive_Summary.md",
+          "displayName": "00_执行摘要",
+          "path": "STOCK_300750_CATL/00_Executive_Summary.md",
+          "size": 11756
+        },
+        {
+          "name": "01_Business_Foundation.md",
+          "displayName": "01_业务基础",
+          "path": "STOCK_300750_CATL/01_Business_Foundation.md",
+          "size": 676
+        },
+        {
+          "name": "02_Industry_Analysis.md",
+          "displayName": "02_行业分析",
+          "path": "STOCK_300750_CATL/02_Industry_Analysis.md",
+          "size": 667
+        },
+        {
+          "name": "03_Business_Breakdown.md",
+          "displayName": "03_业务分解",
+          "path": "STOCK_300750_CATL/03_Business_Breakdown.md",
+          "size": 664
+        },
+        {
+          "name": "04_Financial_Quality.md",
+          "displayName": "04_财务质量",
+          "path": "STOCK_300750_CATL/04_Financial_Quality.md",
+          "size": 664
+        },
+        {
+          "name": "05_Governance_Analysis.md",
+          "displayName": "05_治理分析",
+          "path": "STOCK_300750_CATL/05_Governance_Analysis.md",
+          "size": 664
+        },
+        {
+          "name": "06_Market_Sentiment.md",
+          "displayName": "06_市场情绪",
+          "path": "STOCK_300750_CATL/06_Market_Sentiment.md",
+          "size": 661
+        },
+        {
+          "name": "07_Valuation_Moat.md",
+          "displayName": "07_估值护城河",
+          "path": "STOCK_300750_CATL/07_Valuation_Moat.md",
+          "size": 660
+        },
+        {
+          "name": "README.md",
+          "displayName": "概述",
+          "path": "STOCK_300750_CATL/README.md",
+          "size": 2479
+        },
+        {
+          "name": "README_2026.md",
+          "displayName": "README_2026",
+          "path": "STOCK_300750_CATL/README_2026.md",
+          "size": 7873
+        }
+      ]
+    },
+    {
+      "id": "STOCK_688981_SMIC",
+      "name": "STOCK_688981_SMIC",
+      "folder": "STOCK_688981_SMIC",
+      "market": "cn",
+      "files": [
+        {
+          "name": "README_2026.md",
+          "displayName": "README_2026",
+          "path": "STOCK_688981_SMIC/README_2026.md",
+          "size": 8108
+        }
+      ]
     }
   ],
   "directoryMap": {
@@ -14575,6 +15131,11 @@ const directoryData = {
       "type": "file",
       "path": "STOCK_00020_HK_SenseTime/README.md"
     },
+    "STOCK_00020_HK_SenseTime/2026/README_2026.md": {
+      "name": "README_2026.md",
+      "type": "file",
+      "path": "STOCK_00020_HK_SenseTime/2026/README_2026.md"
+    },
     "STOCK_01801_HK_Innovent/00_Executive_Summary.md": {
       "name": "00_Executive_Summary.md",
       "type": "file",
@@ -14724,6 +15285,11 @@ const directoryData = {
       "name": "README.md",
       "type": "file",
       "path": "STOCK_09698_HK_GDS/README.md"
+    },
+    "STOCK_09698_HK_GDS/README_2026.md": {
+      "name": "README_2026.md",
+      "type": "file",
+      "path": "STOCK_09698_HK_GDS/README_2026.md"
     },
     "STOCK_00383_HK_TianAn_Medicare/00_Executive_Summary.md": {
       "name": "00_Executive_Summary.md",
@@ -15375,6 +15941,11 @@ const directoryData = {
       "type": "file",
       "path": "STOCK_09618_HK_JD_com/README.md"
     },
+    "STOCK_09618_HK_JD_com/README_2026.md": {
+      "name": "README_2026.md",
+      "type": "file",
+      "path": "STOCK_09618_HK_JD_com/README_2026.md"
+    },
     "STOCK_09618_HK_JD_com/sources/bibliography.md": {
       "name": "bibliography.md",
       "type": "file",
@@ -15900,6 +16471,11 @@ const directoryData = {
       "type": "file",
       "path": "STOCK_09988_HK_Alibaba/2025_Financial_Update.md"
     },
+    "STOCK_09988_HK_Alibaba/README_2026.md": {
+      "name": "README_2026.md",
+      "type": "file",
+      "path": "STOCK_09988_HK_Alibaba/README_2026.md"
+    },
     "STOCK_03693_HK_GDS/00_Executive_Summary.md": {
       "name": "00_Executive_Summary.md",
       "type": "file",
@@ -16070,6 +16646,11 @@ const directoryData = {
       "type": "file",
       "path": "STOCK_BIDU_Baidu/Risk_Monitoring_Redd_Flags_Assessment.md"
     },
+    "STOCK_BIDU_Baidu/README_2026.md": {
+      "name": "README_2026.md",
+      "type": "file",
+      "path": "STOCK_BIDU_Baidu/README_2026.md"
+    },
     "STOCK_BIDU_Baidu/Financial_Data/key_metrics_summary.md": {
       "name": "key_metrics_summary.md",
       "type": "file",
@@ -16115,6 +16696,11 @@ const directoryData = {
       "type": "file",
       "path": "STOCK_BEDU_BrightScholar/04_Business_Analysis.md"
     },
+    "STOCK_BEDU_BrightScholar/README_2026.md": {
+      "name": "README_2026.md",
+      "type": "file",
+      "path": "STOCK_BEDU_BrightScholar/README_2026.md"
+    },
     "STOCK_BEDU_BrightScholar/sources/research_log.md": {
       "name": "research_log.md",
       "type": "file",
@@ -16124,6 +16710,11 @@ const directoryData = {
       "name": "README.md",
       "type": "file",
       "path": "STOCK_COE_51Talk/README.md"
+    },
+    "STOCK_COE_51Talk/README_2026.md": {
+      "name": "README_2026.md",
+      "type": "file",
+      "path": "STOCK_COE_51Talk/README_2026.md"
     },
     "STOCK_DL_ChinaDistance/README.md": {
       "name": "README.md",
@@ -16200,6 +16791,11 @@ const directoryData = {
       "type": "file",
       "path": "STOCK_STG_Sunlands/README.md"
     },
+    "STOCK_STG_Sunlands/README_2026.md": {
+      "name": "README_2026.md",
+      "type": "file",
+      "path": "STOCK_STG_Sunlands/README_2026.md"
+    },
     "STOCK_TEDU_Tarena/README.md": {
       "name": "README.md",
       "type": "file",
@@ -16224,6 +16820,11 @@ const directoryData = {
       "name": "README.md",
       "type": "file",
       "path": "STOCK_CIC_BlueCity/README.md"
+    },
+    "STOCK_CIC_BlueCity/README_2026.md": {
+      "name": "README_2026.md",
+      "type": "file",
+      "path": "STOCK_CIC_BlueCity/README_2026.md"
     },
     "STOCK_AMBO_Ambow/README.md": {
       "name": "README.md",
@@ -16264,6 +16865,11 @@ const directoryData = {
       "name": "README.md",
       "type": "file",
       "path": "STOCK_POZH_Parkha/README.md"
+    },
+    "STOCK_POZH_Parkha/README_2026.md": {
+      "name": "README_2026.md",
+      "type": "file",
+      "path": "STOCK_POZH_Parkha/README_2026.md"
     },
     "STOCK_ECAR_Ecarx/README.md": {
       "name": "README.md",
@@ -16315,6 +16921,11 @@ const directoryData = {
       "type": "file",
       "path": "STOCK_LU_Lufax/02_Business_Transformation.md"
     },
+    "STOCK_LU_Lufax/README_2026.md": {
+      "name": "README_2026.md",
+      "type": "file",
+      "path": "STOCK_LU_Lufax/README_2026.md"
+    },
     "STOCK_HUYA_Huya/README.md": {
       "name": "README.md",
       "type": "file",
@@ -16324,6 +16935,11 @@ const directoryData = {
       "name": "02_Competitive_Analysis.md",
       "type": "file",
       "path": "STOCK_HUYA_Huya/02_Competitive_Analysis.md"
+    },
+    "STOCK_HUYA_Huya/README_2026.md": {
+      "name": "README_2026.md",
+      "type": "file",
+      "path": "STOCK_HUYA_Huya/README_2026.md"
     },
     "STOCK_GOTU_Gaosu/README.md": {
       "name": "README.md",
@@ -16380,6 +16996,11 @@ const directoryData = {
       "type": "file",
       "path": "STOCK_BZUN_Baozun/02_Business_Analysis.md"
     },
+    "STOCK_BZUN_Baozun/README_2026.md": {
+      "name": "README_2026.md",
+      "type": "file",
+      "path": "STOCK_BZUN_Baozun/README_2026.md"
+    },
     "STOCK_CANG_CanGo/README.md": {
       "name": "README.md",
       "type": "file",
@@ -16405,6 +17026,11 @@ const directoryData = {
       "type": "file",
       "path": "STOCK_DOYU_Douyu/README.md"
     },
+    "STOCK_DOYU_Douyu/README_2026.md": {
+      "name": "README_2026.md",
+      "type": "file",
+      "path": "STOCK_DOYU_Douyu/README_2026.md"
+    },
     "STOCK_XNET_Xunlei/README.md": {
       "name": "README.md",
       "type": "file",
@@ -16415,10 +17041,20 @@ const directoryData = {
       "type": "file",
       "path": "STOCK_QFIN_QuantumSong/README.md"
     },
+    "STOCK_QFIN_QuantumSong/README_2026.md": {
+      "name": "README_2026.md",
+      "type": "file",
+      "path": "STOCK_QFIN_QuantumSong/README_2026.md"
+    },
     "STOCK_DAO_Youdao/README.md": {
       "name": "README.md",
       "type": "file",
       "path": "STOCK_DAO_Youdao/README.md"
+    },
+    "STOCK_DAO_Youdao/README_2026.md": {
+      "name": "README_2026.md",
+      "type": "file",
+      "path": "STOCK_DAO_Youdao/README_2026.md"
     },
     "STOCK_FINV_LexinFintech/README.md": {
       "name": "README.md",
@@ -16790,6 +17426,11 @@ const directoryData = {
       "type": "file",
       "path": "STOCK_VNET_21Vianet/README.md"
     },
+    "STOCK_VNET_21Vianet/README_2026.md": {
+      "name": "README_2026.md",
+      "type": "file",
+      "path": "STOCK_VNET_21Vianet/README_2026.md"
+    },
     "STOCK_KC_Kingsoft_Cloud/00_Executive_Summary.md": {
       "name": "00_Executive_Summary.md",
       "type": "file",
@@ -16835,15 +17476,30 @@ const directoryData = {
       "type": "file",
       "path": "STOCK_ATHM_Autohome/00_Executive_Summary.md"
     },
+    "STOCK_ATHM_Autohome/README_2026.md": {
+      "name": "README_2026.md",
+      "type": "file",
+      "path": "STOCK_ATHM_Autohome/README_2026.md"
+    },
     "STOCK_MNSO_Miniso/00_Executive_Summary.md": {
       "name": "00_Executive_Summary.md",
       "type": "file",
       "path": "STOCK_MNSO_Miniso/00_Executive_Summary.md"
     },
+    "STOCK_MNSO_Miniso/README_2026.md": {
+      "name": "README_2026.md",
+      "type": "file",
+      "path": "STOCK_MNSO_Miniso/README_2026.md"
+    },
     "STOCK_TAL_TAL_Education/00_Executive_Summary.md": {
       "name": "00_Executive_Summary.md",
       "type": "file",
       "path": "STOCK_TAL_TAL_Education/00_Executive_Summary.md"
+    },
+    "STOCK_TAL_TAL_Education/README_2026.md": {
+      "name": "README_2026.md",
+      "type": "file",
+      "path": "STOCK_TAL_TAL_Education/README_2026.md"
     },
     "STOCK_WB_Weibo/00_Executive_Summary.md": {
       "name": "00_Executive_Summary.md",
@@ -16865,6 +17521,11 @@ const directoryData = {
       "type": "file",
       "path": "STOCK_VIPS_Vipshop/README.md"
     },
+    "STOCK_VIPS_Vipshop/README_2026.md": {
+      "name": "README_2026.md",
+      "type": "file",
+      "path": "STOCK_VIPS_Vipshop/README_2026.md"
+    },
     "STOCK_YMM_Full_Truck_Alliance/00_Executive_Summary.md": {
       "name": "00_Executive_Summary.md",
       "type": "file",
@@ -16874,6 +17535,11 @@ const directoryData = {
       "name": "00_Executive_Summary.md",
       "type": "file",
       "path": "STOCK_ATAT_Atour/00_Executive_Summary.md"
+    },
+    "STOCK_ATAT_Atour/README_2026.md": {
+      "name": "README_2026.md",
+      "type": "file",
+      "path": "STOCK_ATAT_Atour/README_2026.md"
     },
     "STOCK_YUMC_Yum_China/00_Executive_Summary.md": {
       "name": "00_Executive_Summary.md",
@@ -16890,6 +17556,11 @@ const directoryData = {
       "type": "file",
       "path": "STOCK_BILI_Bilibili/README.md"
     },
+    "STOCK_BILI_Bilibili/README_2026.md": {
+      "name": "README_2026.md",
+      "type": "file",
+      "path": "STOCK_BILI_Bilibili/README_2026.md"
+    },
     "STOCK_BZ_BOSS_Zhipin/00_Executive_Summary.md": {
       "name": "00_Executive_Summary.md",
       "type": "file",
@@ -16905,6 +17576,11 @@ const directoryData = {
       "type": "file",
       "path": "STOCK_PDD_Pinduoduo/README.md"
     },
+    "STOCK_PDD_Pinduoduo/README_2026.md": {
+      "name": "README_2026.md",
+      "type": "file",
+      "path": "STOCK_PDD_Pinduoduo/README_2026.md"
+    },
     "STOCK_XPEV_Xpeng/00_Executive_Summary.md": {
       "name": "00_Executive_Summary.md",
       "type": "file",
@@ -16914,6 +17590,11 @@ const directoryData = {
       "name": "README.md",
       "type": "file",
       "path": "STOCK_XPEV_Xpeng/README.md"
+    },
+    "STOCK_XPEV_Xpeng/README_2026.md": {
+      "name": "README_2026.md",
+      "type": "file",
+      "path": "STOCK_XPEV_Xpeng/README_2026.md"
     },
     "STOCK_LI_LiAuto/00_Executive_Summary.md": {
       "name": "00_Executive_Summary.md",
@@ -16935,6 +17616,11 @@ const directoryData = {
       "type": "file",
       "path": "STOCK_NIO_NIO/README.md"
     },
+    "STOCK_NIO_NIO/README_2026.md": {
+      "name": "README_2026.md",
+      "type": "file",
+      "path": "STOCK_NIO_NIO/README_2026.md"
+    },
     "STOCK_NTES_NetEase/00_Executive_Summary.md": {
       "name": "00_Executive_Summary.md",
       "type": "file",
@@ -16944,6 +17630,11 @@ const directoryData = {
       "name": "README.md",
       "type": "file",
       "path": "STOCK_NTES_NetEase/README.md"
+    },
+    "STOCK_NTES_NetEase/README_2026.md": {
+      "name": "README_2026.md",
+      "type": "file",
+      "path": "STOCK_NTES_NetEase/README_2026.md"
     },
     "STOCK_JD_JDcom/00_Executive_Summary.md": {
       "name": "00_Executive_Summary.md",
@@ -16955,6 +17646,11 @@ const directoryData = {
       "type": "file",
       "path": "STOCK_JD_JDcom/README.md"
     },
+    "STOCK_JD_JDcom/README_2026.md": {
+      "name": "README_2026.md",
+      "type": "file",
+      "path": "STOCK_JD_JDcom/README_2026.md"
+    },
     "STOCK_BABA_Alibaba/00_Executive_Summary.md": {
       "name": "00_Executive_Summary.md",
       "type": "file",
@@ -16964,6 +17660,11 @@ const directoryData = {
       "name": "README.md",
       "type": "file",
       "path": "STOCK_BABA_Alibaba/README.md"
+    },
+    "STOCK_BABA_Alibaba/README_2026.md": {
+      "name": "README_2026.md",
+      "type": "file",
+      "path": "STOCK_BABA_Alibaba/README_2026.md"
     },
     "STOCK_688249_SH_Huaian/00_Executive_Summary.md": {
       "name": "00_Executive_Summary.md",
@@ -19744,6 +20445,11 @@ const directoryData = {
       "name": "README.md",
       "type": "file",
       "path": "STOCK_300142_WALVAX/README.md"
+    },
+    "STOCK_300142_WALVAX/README_2026.md": {
+      "name": "README_2026.md",
+      "type": "file",
+      "path": "STOCK_300142_WALVAX/README_2026.md"
     },
     "STOCK_300413_Mango/00_Executive_Summary.md": {
       "name": "00_Executive_Summary.md",
@@ -23929,6 +24635,166 @@ const directoryData = {
       "name": "README.md",
       "type": "file",
       "path": "STOCK_QFIN_360Digital/README.md"
+    },
+    "STOCK_EDU_New_Oriental/README_2026.md": {
+      "name": "README_2026.md",
+      "type": "file",
+      "path": "STOCK_EDU_New_Oriental/README_2026.md"
+    },
+    "STOCK_002594_BYD/README_2026.md": {
+      "name": "README_2026.md",
+      "type": "file",
+      "path": "STOCK_002594_BYD/README_2026.md"
+    },
+    "STOCK_600104_SAIC_Motor/README_2026.md": {
+      "name": "README_2026.md",
+      "type": "file",
+      "path": "STOCK_600104_SAIC_Motor/README_2026.md"
+    },
+    "STOCK_600418_JAC/README_2026.md": {
+      "name": "README_2026.md",
+      "type": "file",
+      "path": "STOCK_600418_JAC/README_2026.md"
+    },
+    "STOCK_601633_Great_Wall_Motor/README_2026.md": {
+      "name": "README_2026.md",
+      "type": "file",
+      "path": "STOCK_601633_Great_Wall_Motor/README_2026.md"
+    },
+    "STOCK_601238_GAC_Group/README_2026.md": {
+      "name": "README_2026.md",
+      "type": "file",
+      "path": "STOCK_601238_GAC_Group/README_2026.md"
+    },
+    "STOCK_601127_Seres/README_2026.md": {
+      "name": "README_2026.md",
+      "type": "file",
+      "path": "STOCK_601127_Seres/README_2026.md"
+    },
+    "STOCK_LI_Li_Auto/README_2026.md": {
+      "name": "README_2026.md",
+      "type": "file",
+      "path": "STOCK_LI_Li_Auto/README_2026.md"
+    },
+    "STOCK_YUMC_YumChina/README_2026.md": {
+      "name": "README_2026.md",
+      "type": "file",
+      "path": "STOCK_YUMC_YumChina/README_2026.md"
+    },
+    "STOCK_MOMO_Momo/README_2026.md": {
+      "name": "README_2026.md",
+      "type": "file",
+      "path": "STOCK_MOMO_Momo/README_2026.md"
+    },
+    "STOCK_GOTU_Gaotu/README_2026.md": {
+      "name": "README_2026.md",
+      "type": "file",
+      "path": "STOCK_GOTU_Gaotu/README_2026.md"
+    },
+    "STOCK_688185_SH_CanSino/README_2026.md": {
+      "name": "README_2026.md",
+      "type": "file",
+      "path": "STOCK_688185_SH_CanSino/README_2026.md"
+    },
+    "STOCK_2020_HK_ANTA/README_2026.md": {
+      "name": "README_2026.md",
+      "type": "file",
+      "path": "STOCK_2020_HK_ANTA/README_2026.md"
+    },
+    "STOCK_2331_HK_Li_Ning/README_2026.md": {
+      "name": "README_2026.md",
+      "type": "file",
+      "path": "STOCK_2331_HK_Li_Ning/README_2026.md"
+    },
+    "STOCK_ZLAB_ZaiLab/README_2026.md": {
+      "name": "README_2026.md",
+      "type": "file",
+      "path": "STOCK_ZLAB_ZaiLab/README_2026.md"
+    },
+    "STOCK_HCM_HutchMed/README_2026.md": {
+      "name": "README_2026.md",
+      "type": "file",
+      "path": "STOCK_HCM_HutchMed/README_2026.md"
+    },
+    "STOCK_BGNE_BeiGene/README_2026.md": {
+      "name": "README_2026.md",
+      "type": "file",
+      "path": "STOCK_BGNE_BeiGene/README_2026.md"
+    },
+    "STOCK_TME_TencentMusic/README_2026.md": {
+      "name": "README_2026.md",
+      "type": "file",
+      "path": "STOCK_TME_TencentMusic/README_2026.md"
+    },
+    "STOCK_BEKE_KeHoldings/README_2026.md": {
+      "name": "README_2026.md",
+      "type": "file",
+      "path": "STOCK_BEKE_KeHoldings/README_2026.md"
+    },
+    "STOCK_QFIN_360Shuke/README_2026.md": {
+      "name": "README_2026.md",
+      "type": "file",
+      "path": "STOCK_QFIN_360Shuke/README_2026.md"
+    },
+    "STOCK_02359_WuXi_AppTec/README_2026.md": {
+      "name": "README_2026.md",
+      "type": "file",
+      "path": "STOCK_02359_WuXi_AppTec/README_2026.md"
+    },
+    "STOCK_300750_CATL/00_Executive_Summary.md": {
+      "name": "00_Executive_Summary.md",
+      "type": "file",
+      "path": "STOCK_300750_CATL/00_Executive_Summary.md"
+    },
+    "STOCK_300750_CATL/01_Business_Foundation.md": {
+      "name": "01_Business_Foundation.md",
+      "type": "file",
+      "path": "STOCK_300750_CATL/01_Business_Foundation.md"
+    },
+    "STOCK_300750_CATL/02_Industry_Analysis.md": {
+      "name": "02_Industry_Analysis.md",
+      "type": "file",
+      "path": "STOCK_300750_CATL/02_Industry_Analysis.md"
+    },
+    "STOCK_300750_CATL/03_Business_Breakdown.md": {
+      "name": "03_Business_Breakdown.md",
+      "type": "file",
+      "path": "STOCK_300750_CATL/03_Business_Breakdown.md"
+    },
+    "STOCK_300750_CATL/04_Financial_Quality.md": {
+      "name": "04_Financial_Quality.md",
+      "type": "file",
+      "path": "STOCK_300750_CATL/04_Financial_Quality.md"
+    },
+    "STOCK_300750_CATL/05_Governance_Analysis.md": {
+      "name": "05_Governance_Analysis.md",
+      "type": "file",
+      "path": "STOCK_300750_CATL/05_Governance_Analysis.md"
+    },
+    "STOCK_300750_CATL/06_Market_Sentiment.md": {
+      "name": "06_Market_Sentiment.md",
+      "type": "file",
+      "path": "STOCK_300750_CATL/06_Market_Sentiment.md"
+    },
+    "STOCK_300750_CATL/07_Valuation_Moat.md": {
+      "name": "07_Valuation_Moat.md",
+      "type": "file",
+      "path": "STOCK_300750_CATL/07_Valuation_Moat.md"
+    },
+    "STOCK_300750_CATL/README.md": {
+      "name": "README.md",
+      "type": "file",
+      "path": "STOCK_300750_CATL/README.md"
+    },
+    "STOCK_300750_CATL/README_2026.md": {
+      "name": "README_2026.md",
+      "type": "file",
+      "path": "STOCK_300750_CATL/README_2026.md"
+    },
+    "STOCK_688981_SMIC/README_2026.md": {
+      "name": "README_2026.md",
+      "type": "file",
+      "path": "STOCK_688981_SMIC/README_2026.md"
     }
   }
 };
