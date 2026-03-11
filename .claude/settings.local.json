@@ -17,7 +17,22 @@
       "Bash(for dir:*)",
       "Bash(do echo:*)",
       "Read(//e/恒生科技/**)",
-      "Bash(done)"
+      "Bash(done)",
+      "Bash(cd \"E:\\\\恒生科技\" && python analyze_poor_reports.py)",
+      "Bash(dir /b \"E:\\\\恒生科技\\\\股票数据\" | grep \"300777\")",
+      "Bash(dir /b \"E:\\\\恒生科技\\\\股票数据\" | grep \"300876\")",
+      "Bash(dir /b \"E:\\\\恒生科技\\\\股票数据\" | grep \"300888\")",
+      "Bash(dir /b \"E:\\\\恒生科技\\\\股票数据\" | grep \"300896\")",
+      "Bash(ls -d STOCK_688036* STOCK_688169* STOCK_300002* 2>/dev/null)",
+      "Bash(wc -l STOCK_688169_SH_Roborock/*.* 2>/dev/null | tail -1 && wc -l STOCK_688169_Roborock/*.* 2>/dev/null | tail -1)",
+      "Bash(ls -d STOCK_688297* STOCK_688303* STOCK_688375* STOCK_688396* STOCK_688349* STOCK_688469* STOCK_688472* STOCK_688475* STOCK_688506* STOCK_688521* 2>/dev/null)",
+      "Bash(wc -l STOCK_688297_Ewatt/*.md 2>/dev/null | tail -1 && wc -l STOCK_688297_中无人机/*.md 2>/dev/null | tail -1)",
+      "Bash(ls STOCK_300750_SZ_CATL/ && echo \"---\" && wc -l STOCK_300750_SZ_CATL/*.* 2>/dev/null | tail -1)",
+      "Bash(ls -d STOCK_300985* STOCK_300999* 2>/dev/null)",
+      "Bash(ls -d STOCK_*_COMPANY 2>/dev/null | wc -l)",
+      "Bash(ls -d STOCK_* | wc -l)",
+      "Bash(python3 analyze_poor_reports_v2.py)",
+      "Bash(python3 generate_poor_report_md.py)"
     ]
   }
 }
